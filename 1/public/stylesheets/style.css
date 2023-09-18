@@ -133,7 +133,7 @@ nav {
     }
 
     .nav-logo {
-        max-width: 40px;
+        width: 55px;
     }
 
     .btn {
@@ -156,13 +156,7 @@ nav {
     }
 
     .nav-logo {
-        max-width: 40px;
-    }
-}
-
-@media (max-width: 768px) {
-    .nav-logo {
-        max-width: 60px;
+        max-width: 50px;
     }
 }
 
@@ -172,6 +166,6 @@ nav {
     }
 
     .nav-logo {
-        max-width: 60px;
+        max-width: 70px;
     }
 }
