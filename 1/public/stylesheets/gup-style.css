@@ -133,7 +133,7 @@ nav {
     }
 
     .nav-logo {
-        max-width: 40px;
+        width: 55px;
     }
 
     .btn {
@@ -154,6 +154,10 @@ nav {
     .link a {
         font-size: 0.8rem; /* Adjust the font size for smaller screens */
     }
+
+    .nav-logo {
+        max-width: 50px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -162,6 +166,6 @@ nav {
     }
 
     .nav-logo {
-        max-width: 60px;
+        max-width: 70px;
     }
 }
