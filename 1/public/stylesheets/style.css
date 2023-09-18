@@ -154,6 +154,16 @@ nav {
     .link a {
         font-size: 0.8rem; /* Adjust the font size for smaller screens */
     }
+
+    .nav-logo {
+        max-width: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-logo {
+        max-width: 60px;
+    }
 }
 
 @media (max-width: 900px) {
