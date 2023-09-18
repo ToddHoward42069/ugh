@@ -8,36 +8,29 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <title>Test Website</title>
 </head>
-
 <body>
     <header>
     <nav>
         <div class="nav-logo">
             <img src="images/Logo.png" alt="Logo">
         </div>
-
         <div>
-
             <ul class="nav-links">
                 <li class="link"><a href="#">Home</a></li>
-                <li id="link1" class="link"><a href="Games-Website-list/deutsch.html">Spiele</a></li>
-                <li id="link2" class="link"><a href="#">About</a></li>
+                <li id="link1" class="link">
+                    <a href="#">Spiele</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="./Games-Website-list/deutsch.html">Deutsch</a></li>
+                        <li><a href="./Games-Website-list/Mathe.html">Mathe</a></li>
+                        <li><a href="./Games-Website-list/GUP.html">GUP</a></li>
+                    </ul>
+                </li>
+                <li id="link2" class="link"><a href="./About/About.html">About</a></li>
             </ul>
-
         </div>
-
         <button class="btn">Search</button>
-
     </nav>
     </header>
-
-    
-
-
-
-
     <script src="scripts/kursalgorythmus.js"></script>
-
 </body>
-
 </html>

@@ -83,25 +83,25 @@ nav {
 
 /* Style the dropdown menu */
 .dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #18181B;
-  min-width: 10rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  left: 30%;
-}
-
-.dropdown-menu li {
-  padding: 1.5rem 1rem;
-  text-decoration: none;
-  display: flex;
-}
-
-/* Display the dropdown menu on hover */
-.link:hover .dropdown-menu {
-  display: flex;
-}
+    display: none;
+    position: absolute;
+    background-color: #18181B;
+    min-width: 10rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 30%;
+  }
+  
+  .dropdown-menu li {
+    padding: 1.5rem 1rem;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  /* Display the dropdown menu on hover */
+  .link:hover .dropdown-menu {
+    display: flex;
+  }
 
 @media (max-width: 400px) {
     .nav-links {
