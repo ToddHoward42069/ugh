@@ -92,7 +92,7 @@ nav {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
-    transition: opacity 0.5s ease, max-height 0.5s ease;
+    transition: opacity 1s ease, max-height 1s ease;
     gap: 1rem;
     left: 51rem;
     border-radius: 1rem;
