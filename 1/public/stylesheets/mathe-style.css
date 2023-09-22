@@ -295,14 +295,14 @@ nav {
         width: 50%;
     }
     .nav-logo {
-        width: 55px;
+        width: 85px;
     }
     .btn {
         padding: 2% 4%;
     }
     .dropdown-menu {
         align-items: center;
-        left: 24rem;
+        left: 26rem;
     }
     .dropdown-menu li {
         padding: 0.5rem 0.1rem;
