@@ -117,22 +117,6 @@ nav {
     max-height: 10rem; /* Adjust this value based on your content */
 }
 
-.dropdown-menu {
-    display: none;
-    position: 0 center;
-    top: 1rem;
-    left: 4rem;
-    width: 50%;
-    height: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1; /* Ensure the overlay is above other content */
-}
-
-.dropdown-menu.active {
-    display: flex;
-    opacity: 1;
-}
-
 @media (max-width: 575.98px) {
     .nav-links {
         list-style: none;
