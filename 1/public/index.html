@@ -36,12 +36,12 @@
     // Get references to the elements
     const dropdownMenu = document.querySelector('.dropdown-menu');
     const link = document.querySelector('.link');
-    const dropdownMenu = document.getElementById('dropdown-menu');
+    const overlay = document.getElementById('overlay');
 
     // Function to toggle the dropdown
     function toggleDropdown() {
         dropdownMenu.classList.toggle('active');
-        dropdownMenu.style.display = dropdownMenu.classList.contains('active') ? 'block' : 'none';
+        overlay.style.display = dropdownMenu.classList.contains('active') ? 'block' : 'none';
     }
 
     // Function to close the dropdown when clicking outside
