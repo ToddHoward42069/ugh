@@ -121,7 +121,7 @@ nav {
     display: none;
     position: fixed;
     top: 1rem;
-    left: 0;
+    left: -1rem;
     width: 50%;
     height: 50%;
     background-color: rgba(0, 0, 0, 0.5);
