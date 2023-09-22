@@ -131,7 +131,6 @@ nav {
 .dropdown-menu.active {
     display: flex;
     opacity: 1;
-    max-height: 10rem;
 }
 
 @media (max-width: 575.98px) {
