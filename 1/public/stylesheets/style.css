@@ -119,7 +119,7 @@ nav {
 
 .dropdown-menu {
     display: none;
-    position: fixed;
+    position: 0 center;
     top: 1rem;
     left: 4rem;
     width: 50%;
