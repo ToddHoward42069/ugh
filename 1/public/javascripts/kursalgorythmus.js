@@ -31,14 +31,14 @@ console.log("matheClicksCount = ", matheClicksCount);
 
 var setAnzeige1 = function(inhalt) {
   if (anzeige1 != undefined) {
-    var i = document.createElement('p');
+    var i = document.createElement('li');
     i.innerHTML = inhalt;
     anzeige1.appendChild(i);
   }
 }
 var setAnzeige2 = function(inhalt) {
-    if (anzeige1 != undefined) {
-    var i = document.createElement('p');
+    if (anzeige2 != undefined) {
+    var i = document.createElement('li');
     i.innerHTML = inhalt;
     anzeige2.appendChild(i);
   }
@@ -46,3 +46,13 @@ var setAnzeige2 = function(inhalt) {
 console.log("KA: setAnzeige Funktion erstellt");
 
 setAnzeige1("lol klappt");
+
+if (deutschClicksCount > matheClicksCount && deutschClicksCount > gupClicksCount) {
+  setAnzeige1("./Games-Website-list/deutsch.html");
+} else if (matheClicksCount > deutschClicksCount && matheClicksCount > gupClicksCount) {
+  setAnzeige1("./Games-Website-list/Mathe.html");
+} else if (gupClicksCount > matheClicksCount && gupClicksCount > deutschClicksCount) {
+  setAnzeige1("./Games-Website-list/GUP.html");
+} else {
+  setAnzeige1("Du machst alle Kurse gleich viel!")
+}
