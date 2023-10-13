@@ -1,12 +1,13 @@
-document.write("Algorythmus startet ");
+console.log("Starte Kursalgorythmus");
 
 let anzeige1 = document.getElementById("empfohlene kurse like");
 let anzeige2 = document.getElementById("empfohlene kurse zu wenig");
-document.write("Anzeigen erhalten   ")
+console.log("KA: Erhalte Anzeigen");
 
 let deutschClicksCount = parseInt(localStorage.getItem("deutschClickCountEnv")) || 0;
 let gupClicksCount = parseInt(localStorage.getItem("gupClickCountEnv")) || 0;
 let matheClicksCount = parseInt(localStorage.getItem("matheClickCountEnv")) || 0;
+console.log("KA: Erhalte LocalStorage");
 
 let clicksDeu = document.querySelector(".deutschClicks").addEventListener("click", function () {
     deutschClicksCount += 1;
@@ -22,9 +23,18 @@ let clicksMa = document.querySelector(".matheClicks").addEventListener("click", 
     matheClicksCount += 1;
     localStorage.setItem("matheClickCountEnv", matheClicksCount);
 });
+console.log("KA: Klick Event definiert");
 
-document.write("Env erhalten  ");
+console.log("deutschClicksCount = ", deutschClicksCount);
+console.log("gupClicksCount = ", gupClicksCount);
+console.log("matheClicksCount = ", matheClicksCount);
 
-document.write(deutschClicksCount, "  ");
-document.write(gupClicksCount, "  ");
-document.write(matheClicksCount, "  ");
+var setAnzeige1 = function(inhalt) {
+  var A1 = anzeige1.appendChild(inhalt);
+}
+var setAnzeige2 = function(inhalt) {
+  var A2 = anzeige2.appendChild(inhalt);
+}
+console.log("KA: setAnzeige Funktion erstellt");
+
+setAnzeige1("lol klappt");
