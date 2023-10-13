@@ -31,28 +31,47 @@ console.log("matheClicksCount = ", matheClicksCount);
 
 var setAnzeige1 = function(inhalt) {
   if (anzeige1 != undefined) {
-    var i = document.createElement('li');
+    var i = document.createElement('p');
     i.innerHTML = inhalt;
     anzeige1.appendChild(i);
   }
 }
 var setAnzeige2 = function(inhalt) {
     if (anzeige2 != undefined) {
-    var i = document.createElement('li');
+    var i = document.createElement('p');
     i.innerHTML = inhalt;
     anzeige2.appendChild(i);
   }
 }
 console.log("KA: setAnzeige Funktion erstellt");
 
-setAnzeige1("lol klappt");
-
 if (deutschClicksCount > matheClicksCount && deutschClicksCount > gupClicksCount) {
-  setAnzeige1("./Games-Website-list/deutsch.html");
+  setAnzeige1("Deutsch");
 } else if (matheClicksCount > deutschClicksCount && matheClicksCount > gupClicksCount) {
-  setAnzeige1("./Games-Website-list/Mathe.html");
-} else if (gupClicksCount > matheClicksCount && gupClicksCount > deutschClicksCount) {
-  setAnzeige1("./Games-Website-list/GUP.html");
+  setAnzeige1("Mathe");
+} else if (gupClicksCount > deutschClicksCount && gupClicksCount > matheClicksCount) {
+  setAnzeige1("GuP");
+} else if (deutschClicksCount < matheClicksCount && deutschClicksCount < gupClicksCount) {
+  setAnzeige1("Mathe und GuP")
+} else if (gupClicksCount < matheClicksCount && gupClicksCount < deutschClicksCount) {
+  setAnzeige1("Deutsch und Mathe")
+} else if (matheClicksCount < deutschClicksCount && matheClicksCount < gupClicksCount) {
+  setAnzeige1("Deutsch und GuP")
 } else {
-  setAnzeige1("Du machst alle Kurse gleich viel!")
+  setAnzeige1("Du machst alle Fächer gleich viel!")
+}
+if (deutschClicksCount < matheClicksCount && deutschClicksCount < gupClicksCount) {
+  setAnzeige2("Deutsch");
+} else if (matheClicksCount < deutschClicksCount && matheClicksCount < gupClicksCount) {
+  setAnzeige2("Mathe");
+} else if (gupClicksCount < deutschClicksCount && gupClicksCount < matheClicksCount) {
+  setAnzeige2("GuP");
+} else if (deutschClicksCount > matheClicksCount && deutschClicksCount > gupClicksCount) {
+  setAnzeige2("Mathe und GuP")
+} else if (gupClicksCount > matheClicksCount && gupClicksCount > deutschClicksCount) {
+  setAnzeige2("Deutsch und Mathe")
+} else if (matheClicksCount > deutschClicksCount && matheClicksCount > gupClicksCount) {
+  setAnzeige2("Deutsch und GuP")
+} else {
+  setAnzeige2("Du machst alle Fächer gleich viel!")
 }
