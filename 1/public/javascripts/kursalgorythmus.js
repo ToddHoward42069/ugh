@@ -29,16 +29,16 @@ console.log("deutschClicksCount = ", deutschClicksCount);
 console.log("gupClicksCount = ", gupClicksCount);
 console.log("matheClicksCount = ", matheClicksCount);
 
-var setAnzeige1 = function(inhalt) {
+let setAnzeige1 = function(inhalt) {
   if (anzeige1 != undefined) {
-    var i = document.createElement('p');
+    let i = document.createElement('p');
     i.innerHTML = inhalt;
     anzeige1.appendChild(i);
   }
 }
-var setAnzeige2 = function(inhalt) {
+let setAnzeige2 = function(inhalt) {
     if (anzeige2 != undefined) {
-    var i = document.createElement('p');
+    let i = document.createElement('p');
     i.innerHTML = inhalt;
     anzeige2.appendChild(i);
   }
@@ -74,4 +74,12 @@ if (deutschClicksCount < matheClicksCount && deutschClicksCount < gupClicksCount
   setAnzeige2("Deutsch und GuP")
 } else {
   setAnzeige2("Du machst alle Fächer gleich viel!")
+}
+
+let clickReset = parseInt(localStorage.getItem("clickResetEnv")) || 0;
+if (clickReset != 0) {
+  localStorage.setItem("clickResetEnv", 0);
+  localStorage.setItem("deutschClickCountEnv", 0);
+  localStorage.setItem("gupClickCountEnv", 0);
+  localStorage.setItem("matheClickCountEnv", 0);
 }
