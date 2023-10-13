@@ -30,14 +30,18 @@ console.log("gupClicksCount = ", gupClicksCount);
 console.log("matheClicksCount = ", matheClicksCount);
 
 var setAnzeige1 = function(inhalt) {
-  var i = document.createElement('p');
-  i.innerHTML = "inhalt";
-  anzeige1.appendChild(i);
+  if (anzeige1 != undefined) {
+    var i = document.createElement('p');
+    i.innerHTML = inhalt;
+    anzeige1.appendChild(i);
+  }
 }
 var setAnzeige2 = function(inhalt) {
-  var i = document.createElement('p');
-  i.innerHTML = "inhalt";
-  anzeige2.appendChild(i);
+    if (anzeige1 != undefined) {
+    var i = document.createElement('p');
+    i.innerHTML = inhalt;
+    anzeige2.appendChild(i);
+  }
 }
 console.log("KA: setAnzeige Funktion erstellt");
 
