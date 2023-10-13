@@ -30,7 +30,8 @@ console.log("gupClicksCount = ", gupClicksCount);
 console.log("matheClicksCount = ", matheClicksCount);
 
 var setAnzeige1 = function(inhalt) {
-  var A1 = anzeige1.appendChild(inhalt);
+  var i = document.createElement('p');
+  i.innerHTML = "inhalt";
 }
 var setAnzeige2 = function(inhalt) {
   var A2 = anzeige2.appendChild(inhalt);
