@@ -32,9 +32,12 @@ console.log("matheClicksCount = ", matheClicksCount);
 var setAnzeige1 = function(inhalt) {
   var i = document.createElement('p');
   i.innerHTML = "inhalt";
+  anzeige1.appendChild(i);
 }
 var setAnzeige2 = function(inhalt) {
-  var A2 = anzeige2.appendChild(inhalt);
+  var i = document.createElement('p');
+  i.innerHTML = "inhalt";
+  anzeige2.appendChild(i);
 }
 console.log("KA: setAnzeige Funktion erstellt");
 
