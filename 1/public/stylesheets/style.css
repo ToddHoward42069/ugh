@@ -118,6 +118,20 @@ nav {
     max-height: 10rem; /* Adjust this value based on your content */
 }
 
+
+footer {
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #333;
+  font-size: 14px;
+}
+
 @media (max-width: 575.98px) {
     .nav-links {
         list-style: none;
