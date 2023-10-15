@@ -76,10 +76,9 @@ if (deutschClicksCount < matheClicksCount && deutschClicksCount < gupClicksCount
   setAnzeige2("Du machst alle Fächer gleich viel!")
 }
 
-let clickReset = parseInt(localStorage.getItem("clickResetEnv")) || 0;
+let clickReset = 0;
 if (clickReset != 0) {
-  localStorage.setItem("clickResetEnv", 0);
-  localStorage.setItem("deutschClickCountEnv", 0);
-  localStorage.setItem("gupClickCountEnv", 0);
-  localStorage.setItem("matheClickCountEnv", 0);
+  deutschClicksCount = 0;
+  matheClicksCount = 0;
+  gupClicksCount = 0;
 }

@@ -94,9 +94,9 @@ nav {
     overflow: hidden;
     transition: opacity 1s ease, max-height 1s ease;
     gap: 1rem;
-    left: 51rem;
+    left: 50%; /* Center the dropdown menu */
+    transform: translateX(-50%); /* Adjust the horizontal positioning */
     border-radius: 1rem;
-    
 }
 
 .dropdown-menu li {
