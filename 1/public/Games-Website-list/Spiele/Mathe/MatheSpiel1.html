@@ -33,41 +33,114 @@
     </header>
 
     <div id="game-container">
-    <h1>Kopfrechnen Spiel</h1>
-    <div id="problem"></div>
-    <input type="number" id="answer" placeholder="Enter your answer">
-    <button id="submit">Submit</button>
-    <div id="feedback"></div>
-    <div id="lives">Lives: <span id="lives-count">3</span></div>
-    <div id="score">Score: <span id="score-count">0</span></div>
+        <h1>Kopfrechnen Spiel</h1>
+        <div id="problem-container">
+            <p id="problem">Berechne: <span id="question">5 + 3</span></p>
+        </div>
+        <input type="number" id="answer" placeholder="Gib deine Antwort ein">
+        <button id="submit">Submit</button>
+        <button id="restart">Neustart</button>
+        <div id="feedback"></div>
+        <div id="lives">Lives: <span id="lives-count">3</span></div>
+        <div id="score">Score: <span id="score-count">0</span></div>
     </div>
 
-    <div id="empfohlene kurse like"></div>
-    <div id="empfohlene kurse zu wenig"></div>
-    <div id="overlay"></div>
-    <script src="./javascripts/kursalgorythmus.js"></script>
+    <!-- Weitere Inhalte und Skript-Verknüpfungen hier -->
+
     <script>
-    // Get references to the elements
-    const dropdownMenu = document.querySelector('.dropdown-menu');
-    const link = document.querySelector('.link');
-    const overlay = document.getElementById('overlay');
+        let answer = document.getElementById("answer");
+        let lives = document.getElementById("lives");
+        let score = document.getElementById("score");
+        let question = document.getElementById("question");
+        let button = document.getElementById("submit");
+        let scoreInt = 0;
+        let livesInt = 3;
 
-    // Function to toggle the dropdown
-    function toggleDropdown() {
-        dropdownMenu.classList.toggle('active');
-        overlay.style.display = dropdownMenu.classList.contains('active') ? 'block' : 'none';
-    }
+// Funktion zum Generieren zufälliger Aufgaben
+function generateRandomQuestion() {
+    let operand1, operand2, operator, answer;
 
-    // Function to close the dropdown when clicking outside
-    function closeDropdown(event) {
-        if (dropdownMenu.classList.contains('active') && !link.contains(event.target)) {
-            toggleDropdown();
+    do {
+        operand1 = Math.floor(Math.random() * 10) + 1; // Zufällige ganze Zahl zwischen 1 und 10
+        operand2 = Math.floor(Math.random() * 10) + 1;
+        operator = ['+', '-', '*', '/'][Math.floor(Math.random() * 4)]; // Zufälliger Operator
+
+        switch (operator) {
+            case '+':
+                answer = operand1 + operand2;
+                break;
+            case '-':
+                answer = operand1 - operand2;
+                break;
+            case '*':
+                answer = operand1 * operand2;
+                break;
+            case '/':
+                if (operand2 === 0) {
+                    operand2 = 1; // Verhindert Division durch Null
+                }
+                answer = operand1 / operand2;
+                break;
+            default:
+                break;
+        }
+    } while (!Number.isInteger(answer));
+
+    const question = `${operand1} ${operator} ${operand2}`;
+
+    return { question, answer };
+}
+
+let currentQuestion = generateRandomQuestion();
+
+function displayRandomQuestion() {
+    currentQuestion = generateRandomQuestion();
+    question.textContent = currentQuestion.question;
+}
+
+displayRandomQuestion(); // Zeige die erste zufällige Frage
+
+button.addEventListener("click", function () {
+    const playerAnswer = parseFloat(answer.value);
+    const correctAnswer = parseFloat(currentQuestion.answer); // Antwort aus der Frage
+
+    // Prüfe, ob die Spielerantwort genau mit der korrekten Antwort übereinstimmt
+    if (playerAnswer === correctAnswer) {
+        scoreInt += 1;
+        displayRandomQuestion();
+    } else {
+        livesInt -= 1;
+        
+        if (livesInt === 0) {
+            gameLost();
         }
     }
 
-    // Add click event listeners
-    link.addEventListener('click', toggleDropdown);
-    document.addEventListener('click', closeDropdown);
-</script>
+    answer.value = "";
+    lives.textContent = "Lives: " + livesInt;
+    score.textContent = "Score: " + scoreInt;
+});
+
+const restartButton = document.getElementById("restart");
+
+restartButton.addEventListener("click", function () {
+    // Setze das Spiel zurück
+    scoreInt = 0;
+    livesInt = 3;
+    displayRandomQuestion();
+    answer.value = "";
+    lives.textContent = "Lives: " + livesInt;
+    score.textContent = "Score: " + scoreInt;
+    button.disabled = false; // Aktiviere den "Submit"-Button
+});
+
+function gameLost() {
+    // Hier kannst du den Code hinzufügen, um das Spielende zu behandeln
+    // Zum Beispiel: Eine Nachricht anzeigen, das Spiel zurücksetzen usw.
+    question.textContent = "Spiel beendet";
+    button.disabled = true; // Deaktiviere den "Submit"-Button
+    // Weitere Aktionen nach Spielende hier
+}
+    </script>
 </body>
 </html>

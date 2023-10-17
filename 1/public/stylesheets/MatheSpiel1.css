@@ -67,7 +67,8 @@ nav {
     width: 70%;
 }
 
-.btn {
+
+    .btn {
     padding: 1.2% 4.3%; /* Use percentage-based padding */
     font-size: 1rem; /* Adjust the font size as needed */
     color: #fff;
@@ -75,6 +76,8 @@ nav {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    position: relative;
+    top: -0.2rem;
 }
 
 .btn:hover {
@@ -111,6 +114,14 @@ nav {
     max-height: 10rem; /* Adjust this value based on your content */
 }
 
+.link a.active {
+    color: #1d4ed8; /* Change to the desired color */
+}
+
+.link a.active::after {
+    background-color: #1d4ed8; /* Change to the desired color */
+}
+
 .link .dropdown-menu:hover {
     display: flex;
     opacity: 1;
@@ -137,6 +148,7 @@ nav {
 #problem {
   font-size: 2rem; /* 24px */
   margin-bottom: 1rem; /* 20px */
+  color: #fff;
 }
 
 input[type="number"] {
