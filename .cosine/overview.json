@@ -1,0 +1,60 @@
+{
+  "projectName": "ugh",
+  "summary": "Without any specific files or descriptions provided, it's impossible to determine what the project does. However, based on the languages used, we can make some general assumptions.\n\nThis project is likely a web-based application. JavaScript, HTML, and CSS are the core technologies used for building web interfaces. JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate. It's often used for asynchronous browser-server communication.\n\nSQL (Structured Query Language) is used for managing and manipulating relational databases. So, the project likely involves storing, retrieving, and manipulating some form of data in a database.\n\nYAML (YAML Ain't Markup Language) is a human-friendly data serialization standard for all programming languages. It's often used for configuration files and in applications where data is being stored or transmitted.\n\nWithout more specific information, it's impossible to provide a more detailed description of what the project does. It could be anything from a simple website to a complex web application with a database backend.",
+  "languages": [
+    "JSON",
+    "SQL",
+    "YAML",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "noteworthyDependencies": [
+    {
+      "name": "cookie-parser",
+      "version": "~1.4.4"
+    },
+    {
+      "name": "debug",
+      "version": "~2.6.9"
+    },
+    {
+      "name": "express",
+      "version": "~4.16.1"
+    },
+    {
+      "name": "hbs",
+      "version": "~4.0.4"
+    },
+    {
+      "name": "http-errors",
+      "version": "~1.6.3"
+    },
+    {
+      "name": "morgan",
+      "version": "~1.9.1"
+    }
+  ],
+  "samplePrompts": [
+    "What does the main JavaScript file in the codebase do?",
+    "What kind of data is being stored in the SQL database?",
+    "What is the purpose of the JSON files in this project?",
+    "How are CSS styles applied across different HTML files?",
+    "How is YAML used in this project?",
+    "What is the role of cookie-parser in this application?",
+    "Can you explain how the 'debug' dependency is utilised within the codebase?",
+    "Can you describe the role of 'express' in this application?",
+    "What kind of templating does 'hbs' provide in our application?",
+    "How are HTTP errors handled with 'http-errors'?",
+    "What information does 'morgan' log in this application?",
+    "How does this application handle user authentication?",
+    "How does this codebase implement session management?",
+    "Can you locate where the client-server communication is specifically handled?",
+    "What type of data validation is performed before database queries?",
+    "How are potentially sensitive data, like user passwords, handled?",
+    "Does the application handle any kind of file uploads? If so, how?",
+    "What are some crucial backend routes in the codebase, and what are their roles?",
+    "Are there any specific coding styles or conventions adhered to in the codebase?",
+    "Can you show a flowchart or a map of the entire application's architecture?"
+  ]
+}
