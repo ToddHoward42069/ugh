@@ -9,8 +9,36 @@
     color: #fff;
 }
 
+html {
+    overflow: hidden;
+}
+
 .overlay-active {
     display: block;
+}
+
+.footer {
+    width: 100%;
+    background-color: #18181B;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Paragraph */
+.footer p {
+    padding: 64vh 0 0 70em;
+}
+
+/* Link */
+.footer ul a {
+    margin-top: 3px;
+    padding: 0 81em 0 0;
+    display: none;
+}
+
+.main-content {
+    flex-grow: 1;
 }
 
 img {
@@ -25,7 +53,11 @@ a {
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #18181B;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
 
 nav {
     max-width: 1200px;
