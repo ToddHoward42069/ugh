@@ -25,15 +25,15 @@ body {
 nav {
     max-width: 1200px;
     margin: auto;
-    padding: 2rem 1rem;
+    padding: 1rem; /* Adjust for mobile */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem; /* Adjust for mobile */
 }
 
 .nav-logo {
-    max-width: 10%; /* Adjust as needed */
+    max-width: 60%; /* Adjust for mobile */
 }
 
 .nav-links {
@@ -41,15 +41,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    flex-grow: 2; /* Distribute links evenly */
-    gap: 2rem; /* Adjust the gap as needed */
+    flex-grow: 2;
+    gap: 1rem; /* Adjust for mobile */
 }
 
 .link a {
     position: relative;
-    padding-bottom: 0.5rem; /* Use relative padding */
+    padding-bottom: 0.5rem;
     color: #fff;
-    font-size: 1rem; /* Adjust the font size as needed */
+    font-size: 0.8rem; /* Adjust for mobile */
 }
 
 .link a::after {
@@ -67,10 +67,9 @@ nav {
     width: 70%;
 }
 
-
-    .btn {
-    padding: 1.2% 4.3%; /* Use percentage-based padding */
-    font-size: 1rem; /* Adjust the font size as needed */
+.btn {
+    padding: 1.2% 4.3%;
+    font-size: 0.8rem; /* Adjust for mobile */
     color: #fff;
     background-color: #404046;
     border-radius: 5px;
@@ -84,7 +83,6 @@ nav {
     background-color: #18181B;
 }
 
-/* Style the dropdown menu */
 .dropdown-menu {
     display: flex;
     position: absolute;
@@ -97,8 +95,8 @@ nav {
     overflow: hidden;
     transition: opacity 1s ease, max-height 1s ease;
     gap: 1rem;
-    left: 50%; /* Center the dropdown menu */
-    transform: translateX(-50%); /* Adjust the horizontal positioning */
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 1rem;
 }
 
@@ -106,39 +104,32 @@ nav {
     padding: 1rem 0.5rem;
     text-decoration: none;
     display: flex;
-  }
-
-.link:hover .dropdown-menu {
-    display: flex;
-    opacity: 1;
-    max-height: 10rem; /* Adjust this value based on your content */
 }
 
-.link a.active {
-    color: #1d4ed8; /* Change to the desired color */
-}
-
-.link a.active::after {
-    background-color: #1d4ed8; /* Change to the desired color */
-}
-
+.link:hover .dropdown-menu,
 .link .dropdown-menu:hover {
     display: flex;
     opacity: 1;
-    max-height: 10rem; /* Adjust this value based on your content */
+    max-height: 10rem;
+}
+
+.link a.active,
+.link a.active::after {
+    color: #1d4ed8;
+    background-color: #1d4ed8;
 }
 
 #game-container {
     max-width: 50rem;
     margin: 0 auto;
-    padding: 10rem;
+    padding: 5rem; /* Adjust for mobile */
     background: linear-gradient(0deg,#18181B, #2e2e2e);
     border-radius: 0.5rem;
     text-align: center;
     transition: background-color 0.5s ease;
 }
 
- h1 {
+h1 {
     color: #ffffff;
     text-align: center;
     position: relative;
@@ -146,231 +137,76 @@ nav {
 }
 
 #problem {
-  font-size: 2rem; /* 24px */
-  margin-bottom: 1rem; /* 20px */
-  color: #fff;
+    font-size: 1.5rem; /* Adjust for mobile */
+    margin-bottom: 1rem;
+    color: #fff;
 }
 
-input[type="number"] {
-  padding: .625rem; /* 10px */
-  width: 12.5rem; /* 200px */
-  margin-bottom: 0.625rem; /* 10px */
-  position: relative;
-  top: 1.5rem;
+input[type="number"], button {
+    padding: .625rem;
+    width: 10rem; /* Adjust for mobile */
+    margin-bottom: 0.625rem;
+    position: relative;
+    top: 1.5rem;
 }
 
 button {
-  padding: 0.625rem 1.25rem; /* 10px 20px */
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  top: 1.5rem;
+    padding: 0.625rem 1.25rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 #feedback {
-  font-size: 1.125rem; /* 18px */
-  margin-bottom: 0.625rem; /* 10px */
+    font-size: 1rem; /* Adjust for mobile */
+    margin-bottom: 0.625rem;
 }
 
 #lives,
 #score {
-  font-size: 1rem; /* 16px */
-  margin-bottom: 0.625rem; /* 10px */
-  position: relative;
-  top: 1.5rem;
-  color: #fff;
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
+    position: relative;
+    top: 1.5rem;
+    color: #fff;
 }
 
-@media (max-width: 575.98px) {
-    .nav-links {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        flex-grow: 2; /* Distribute links evenly */
-        gap: 0.33rem; /* Adjust the gap as needed */
+@media (min-width: 576px) {
+    nav {
+        padding: 2rem 1rem;
+        gap: 2rem;
     }
-    .link {
-        flex-grow: 1;
-        padding-bottom: 0.5rem;
-    }
-    .link a::after {
-        width: 50%;
-    }
-    .nav-logo {
-        width: 55px;
-    }
-    .btn {
-        padding: 2% 4%;
-    }
-    .dropdown-menu {
-        align-items: center;
-        left: 6rem;
-    }
-    .dropdown-menu li {
-        padding: 0.5rem 0.1rem;
-    }
-}
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .nav-links {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        flex-grow: 2; /* Distribute links evenly */
-        gap: 1rem; /* Adjust the gap as needed */
-    }
-    .link {
-        flex-grow: 1;
-        padding-bottom: 0.5rem;
-    }
-    .link a::after {
-        width: 50%;
-    }
     .nav-logo {
-        width: 55px;
+        max-width: 10%;
     }
-    .btn {
-        padding: 2% 4%;
-    }
-    .dropdown-menu {
-        align-items: center;
-        left: 14rem;
-    }
-    .dropdown-menu li {
-        padding: 0.5rem 0.1rem;
-    }
-}
 
-@media (max-width: 575.98px) {
     .nav-links {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        flex-grow: 2; /* Distribute links evenly */
-        gap: 0.33rem; /* Adjust the gap as needed */
+        gap: 2rem;
     }
-    .link {
-        flex-grow: 1;
-        padding-bottom: 0.5rem;
-    }
-    .link a::after {
-        width: 50%;
-    }
-    .nav-logo {
-        width: 55px;
-    }
-    .btn {
-        padding: 2% 4%;
-    }
-    .dropdown-menu {
-        align-items: center;
-        left: 6rem;
-    }
-    .dropdown-menu li {
-        padding: 0.5rem 0.1rem;
-    }
-}
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .nav-links {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        flex-grow: 2; /* Distribute links evenly */
-        gap: 1rem; /* Adjust the gap as needed */
+    .link a {
+        font-size: 1rem;
     }
-    .link {
-        flex-grow: 1;
-        padding-bottom: 0.5rem;
-    }
-    .link a::after {
-        width: 50%;
-    }
-    .nav-logo {
-        width: 55px;
-    }
-    .btn {
-        padding: 2% 4%;
-    }
-    .dropdown-menu {
-        align-items: center;
-        left: 14rem;
-    }
-    .dropdown-menu li {
-        padding: 0.5rem 0.1rem;
-    }
-}
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .nav-links {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        flex-grow: 2; /* Distribute links evenly */
-        gap: 1rem; /* Adjust the gap as needed */
-    }
-    .link {
-        flex-grow: 1;
-        padding-bottom: 0.5rem;
-    }
-    .link a::after {
-        width: 50%;
-    }
-    .nav-logo {
-        width: 55px;
-    }
     .btn {
-        padding: 2% 4%;
+        font-size: 1rem;
     }
-    .dropdown-menu {
-        align-items: center;
-        left: 18.5rem;
-    }
-    .dropdown-menu li {
-        padding: 0.5rem 0.1rem;
-    }
-}
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .nav-links {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        flex-grow: 2; /* Distribute links evenly */
-        gap: 1rem; /* Adjust the gap as needed */
+    #game-container {
+        padding: 10rem;
     }
-    .link {
-        flex-grow: 1;
-        padding-bottom: 0.5rem;
+
+    #problem {
+        font-size: 2rem;
     }
-    .link a::after {
-        width: 50%;
+
+    input[type="number"], button {
+        width: 12.5rem;
     }
-    .nav-logo {
-        width: 85px;
-    }
-    .btn {
-        padding: 1.5% 4%;
-    }
-    .dropdown-menu {
-        align-items: center;
-        left: 26rem;
-    }
-    .dropdown-menu li {
-        padding: 0.5rem 0.1rem;
+
+    #feedback {
+        font-size: 1.125rem;
     }
 }
