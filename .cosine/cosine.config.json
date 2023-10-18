@@ -1,8 +1,8 @@
 {
   "name": "ugh",
   "languages": [
+    "JavaScript",
     "HTML",
-    "CSS",
-    "JavaScript"
+    "CSS"
   ]
 }
