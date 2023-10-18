@@ -134,6 +134,8 @@ h1 {
     text-align: center;
     position: relative;
     bottom: 8rem;
+    font-size: 1.5rem; /* Adjust for mobile */
+    padding: 0 1rem; /* Add padding for mobile */
 }
 
 #problem {
@@ -196,6 +198,11 @@ button {
 
     #game-container {
         padding: 10rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        padding: 0; /* Remove padding for larger screens */
     }
 
     #problem {
