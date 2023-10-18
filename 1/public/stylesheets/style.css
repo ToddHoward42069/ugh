@@ -9,6 +9,10 @@
     color: #fff;
 }
 
+.overlay-active {
+    display: block;
+}
+
 img {
     width: 100%;
     display: block;
