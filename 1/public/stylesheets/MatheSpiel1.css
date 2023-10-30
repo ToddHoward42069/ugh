@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+:root {
+    --primary-color: #18181B;
+    --secondary-color: #2e2e2e;
+    --highlight-color: #1d4ed8;
+    --text-color: #fff;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -19,21 +26,21 @@ a {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #18181B;
+    background-color: var(--primary-color);
 }
 
 nav {
     max-width: 1200px;
     margin: auto;
-    padding: 1rem; /* Adjust for mobile */
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem; /* Adjust for mobile */
+    gap: 1rem;
 }
 
 .nav-logo {
-    max-width: 60%; /* Adjust for mobile */
+    max-width: 60%;
 }
 
 .nav-links {
@@ -42,14 +49,14 @@ nav {
     align-items: center;
     justify-content: space-between; 
     flex-grow: 2;
-    gap: 1rem; /* Adjust for mobile */
+    gap: 1rem;
 }
 
 .link a {
     position: relative;
     padding-bottom: 0.5rem;
-    color: #fff;
-    font-size: 0.8rem; /* Adjust for mobile */
+    color: var(--text-color);
+    font-size: 0.8rem;
 }
 
 .link a::after {
@@ -59,7 +66,7 @@ nav {
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #1d4ed8;
+    background-color: var(--highlight-color);
     transition: all 0.3s ease;
 }
 
@@ -69,8 +76,8 @@ nav {
 
 .btn {
     padding: 1.2% 4.3%;
-    font-size: 0.8rem; /* Adjust for mobile */
-    color: #fff;
+    font-size: 0.8rem;
+    color: var(--text-color);
     background-color: #404046;
     border-radius: 5px;
     cursor: pointer;
@@ -80,13 +87,13 @@ nav {
 }
 
 .btn:hover {
-    background-color: #18181B;
+    background-color: var(--primary-color);
 }
 
 .dropdown-menu {
     display: flex;
     position: absolute;
-    background-color: #18181B;
+    background-color: var(--primary-color);
     min-width: 10rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -115,39 +122,45 @@ nav {
 
 .link a.active,
 .link a.active::after {
-    color: #1d4ed8;
-    background-color: #1d4ed8;
+    color: var(--highlight-color);
+    background-color: var(--highlight-color);
 }
 
 #game-container {
     max-width: 50rem;
     margin: 0 auto;
-    padding: 5rem; /* Adjust for mobile */
-    background: linear-gradient(0deg,#18181B, #2e2e2e);
+    padding: 5rem;
+    background: linear-gradient(0deg,var(--primary-color), var(--secondary-color));
     border-radius: 0.5rem;
     text-align: center;
     transition: background-color 0.5s ease;
 }
 
+h1,
+#problem,
+#lives,
+#score,
+#feedback {
+    color: var(--text-color);
+}
+
 h1 {
-    color: #ffffff;
     text-align: center;
     position: relative;
     bottom: 4rem;
-    font-size: 1.5rem; /* Adjust for mobile */
-    padding: 0 0.1rem; /* Add padding for mobile */
-    white-space: nowrap; /* Prevent text from wrapping */
+    font-size: 1.5rem;
+    padding: 0 0.1rem;
+    white-space: nowrap;
 }
 
 #problem {
-    font-size: 1.5rem; /* Adjust for mobile */
+    font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #fff;
 }
 
 input[type="number"], button {
     padding: .625rem;
-    width: 10rem; /* Adjust for mobile */
+    width: 10rem;
     margin-bottom: 0.625rem;
     position: relative;
     top: 1.5rem;
@@ -161,18 +174,13 @@ button {
     cursor: pointer;
 }
 
-#feedback {
-    font-size: 1rem; /* Adjust for mobile */
-    margin-bottom: 0.625rem;
-}
-
+#feedback,
 #lives,
 #score {
     font-size: 1rem;
     margin-bottom: 0.625rem;
     position: relative;
     top: 1.5rem;
-    color: #fff;
 }
 
 #settings-btn {
@@ -191,7 +199,7 @@ button {
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   background-color: #2e2e2e;
+   background-color: var(--secondary-color);
    border-radius: 5px;
    padding: 10px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -212,7 +220,7 @@ button {
 
 #settings-menu a {
    text-decoration: none;
-   color: #ffffff;
+   color: var(--text-color);
    display: block;
    padding: 5px;
    transition: background-color 0.3s ease;
@@ -256,7 +264,7 @@ button {
 
     h1 {
         font-size: 2rem;
-        padding: 0; /* Remove padding for larger screens */
+        padding: 0;
     }
 
     #problem {

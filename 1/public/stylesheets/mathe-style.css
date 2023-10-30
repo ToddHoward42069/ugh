@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: #0d0d0f;
+}
+
 .overlay-active {
     display: block;
 }
@@ -15,6 +19,22 @@
 img {
     width: 100%;
     display: block;
+}
+
+.spiel-logo {
+    width: 60%;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.spiel-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.spiel-link > img {
+    pointer-events: none;
 }
 
 a {
@@ -39,7 +59,6 @@ nav {
 .nav-logo {
     max-width: 60%; /* Adjust for mobile */
 }
-
 .nav-links {
     list-style: none;
     display: flex;
@@ -124,6 +143,10 @@ nav {
     }
 
     .nav-logo {
+        max-width: 10%;
+    }
+
+    .spiel-logo {
         max-width: 10%;
     }
 
