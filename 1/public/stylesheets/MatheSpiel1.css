@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: #0d0d0f;
+}
+
 img {
     width: 100%;
     display: block;

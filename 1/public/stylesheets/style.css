@@ -9,6 +9,10 @@
     color: #fff;
 }
 
+header {
+    background-color: #0d0d0f;
+}
+
 html {
     overflow: hidden;
 }
