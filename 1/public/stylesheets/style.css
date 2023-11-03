@@ -154,6 +154,16 @@ nav {
     max-height: 10rem;
 }
 
+#dashboard {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 5rem;
+    background: linear-gradient(0deg,var(--primary-color), var(--secondary-color));
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
 @media (min-width: 576px) {
     nav {
         padding: 2rem 1rem;
