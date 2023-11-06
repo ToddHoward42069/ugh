@@ -1,1 +1,165 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0d0d0f;
+}
+
+.overlay-active {
+    display: block;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.spiel-logo {
+    width: 60%;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.spiel-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.spiel-link > img {
+    pointer-events: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #18181B;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem; /* Adjust for mobile */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem; /* Adjust for mobile */
+}
+
+.nav-logo {
+    max-width: 60%; /* Adjust for mobile */
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-grow: 2;
+    gap: 1rem; /* Adjust for mobile */
+}
+
+.link a {
+    position: relative;
+    padding-bottom: 0.5rem;
+    color: #fff;
+    font-size: 0.8rem; /* Adjust for mobile */
+}
+
+.link a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1d4ed8;
+    transition: all 0.3s ease;
+}
+
+.link a:hover::after {
+    width: 70%;
+}
+
+.btn {
+    padding: 1.2% 4.3%;
+    font-size: 0.8rem; /* Adjust for mobile */
+    color: #fff;
+    background-color: #404046;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    top: -0.2rem;
+}
+
+.btn:hover {
+    background-color: #18181B;
+}
+
+.dropdown-menu {
+    display: flex;
+    position: absolute;
+    background-color: #18181B;
+    min-width: 10rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 1s ease, max-height 1s ease;
+    gap: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 1rem;
+}
+
+.dropdown-menu li {
+    padding: 1rem 0.5rem;
+    text-decoration: none;
+    display: flex;
+}
+
+.link:hover .dropdown-menu,
+.link .dropdown-menu:hover {
+    display: flex;
+    opacity: 1;
+    max-height: 10rem;
+}
+
+@media (min-width: 576px) {
+    nav {
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+
+    .nav-logo {
+        max-width: 10%;
+    }
+
+    .spiel-logo {
+        max-width: 10%;
+    }
+
+    .nav-links {
+        gap: 2rem;
+    }
+
+    .link a {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+}
