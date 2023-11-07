@@ -13,7 +13,6 @@ let tookchoice3 = 0
 let sceneCode = [scenario, tookchoice1, tookchoice2, tookchoice3]
 
 let makeScene = function () {
-  //der ganze code
   sceneCode = [scenario, tookchoice1, tookchoice2, tookchoice3]
   
   if (sceneCode == [0,0,0,0]) {
@@ -46,6 +45,15 @@ let makeScene = function () {
 
 makeScene()
 
-let choice1click = choice1.addEventListener("click", function () {tookchoice1 += 1; makeScene();})
-let choice2click = choice2.addEventListener("click", function () {tookchoice2 += 1; makeScene();})
-let choice3click = choice3.addEventListener("click", function () {tookchoice3 += 1; makeScene();})
+choice1.addEventListener("click", function () {
+  tookchoice1 += 1 
+  makeScene()
+})
+choice2.addEventListener("click", function () {
+  tookchoice2 += 1 
+  makeScene()
+})
+choice3.addEventListener("click", function () {
+  tookchoice3 += 1 
+  makeScene()
+})
