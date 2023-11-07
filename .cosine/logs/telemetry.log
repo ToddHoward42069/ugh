@@ -3583,3 +3583,16 @@ INFO [2023-11-07T15:53:57.924Z]: project_reinitialize_success
 INFO [2023-11-07T15:53:57.926Z]: {}
 INFO [2023-11-07T15:53:58.178Z]: project_reinitialize_success
 INFO [2023-11-07T15:53:58.180Z]: {}
+INFO [2023-11-07T16:03:52.291Z]: Tracking open event
+INFO [2023-11-07T16:03:52.300Z]: Creating language service
+INFO [2023-11-07T16:03:52.300Z]: Creating settings service
+INFO [2023-11-07T16:03:52.301Z]: Creating workspace service
+INFO [2023-11-07T16:03:52.301Z]: Creating remote AI
+INFO [2023-11-07T16:03:52.301Z]: Creating feedback service
+INFO [2023-11-07T16:03:52.301Z]: Creating share service
+INFO [2023-11-07T16:03:52.301Z]: Creating workspace controller
+INFO [2023-11-07T16:03:52.301Z]: Enabling workspace listeners
+INFO [2023-11-07T16:03:52.302Z]: Creating source
+INFO [2023-11-07T16:03:52.302Z]: Initializing workspace controller
+INFO [2023-11-07T16:03:52.307Z]: opened
+INFO [2023-11-07T16:03:52.307Z]: {}
