@@ -36,12 +36,13 @@ let makeScene = function () {
     choice2.innerHTML = "1945-Hiroshima"
     choice3.innerHTML = "Zurück"
   } else if (sceneCode == [0,1,0,1] || sceneCode == [0,0,1,1] || sceneCode == [0,0,0,2]) {
-    scenarion = 0
+    scenario = 0
     tookchoice1 = 0
     tookchoice2 = 0
     tookchoice3 = 0
     makeScene()
   }
+}
 
 makeScene()
 
