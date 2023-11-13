@@ -21,6 +21,22 @@ img {
     display: block;
 }
 
+.spiel-logo {
+    width: 60%;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.spiel-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.spiel-link > img {
+    pointer-events: none;
+}
+
 a {
     text-decoration: none;
 }
