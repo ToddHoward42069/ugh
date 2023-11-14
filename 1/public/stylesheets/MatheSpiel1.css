@@ -80,20 +80,13 @@ nav {
 
 .btn {
     padding: 1.2% 4.3%;
-    font-size: 0.8rem;
-    color: var(--text-color);
-    background-color: #404046;
-    border-radius: 5px;
-    cursor: pointer;
+    font-size: 0.8rem; /* Adjust for mobile */
+    color: #0d0d0f;
+    background-color: #0d0d0f;
     transition: all 0.3s ease;
     position: relative;
     top: -0.2rem;
 }
-
-.btn:hover {
-    background-color: var(--primary-color);
-}
-
 .dropdown-menu {
     display: flex;
     position: absolute;
