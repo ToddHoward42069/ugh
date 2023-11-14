@@ -116,6 +116,7 @@ nav {
 }
 
 .btn {
+    display: none;
     padding: 1.2% 4.3%;
     font-size: 0.8rem; /* Adjust for mobile */
     color: #fff;
