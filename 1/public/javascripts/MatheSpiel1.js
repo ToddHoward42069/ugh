@@ -47,8 +47,9 @@ function generateRandomQuestion() {
                 operand2 = 1; // Prevent division by zero
             }
             answer = operand1 / operand2;
-            if (Math.round(answer) == answer) {
-              generateRandomQuestion()
+            if (answer % 1 !== 0 && answer % 0.5 !== 0) {
+                generateRandomQuestion();
+                return;
             }
             break;
         default:
