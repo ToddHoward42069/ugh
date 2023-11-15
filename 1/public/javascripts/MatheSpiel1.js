@@ -47,13 +47,16 @@ function generateRandomQuestion() {
                 operand2 = 1; // Prevent division by zero
             }
             answer = operand1 / operand2;
-            if (Math.round(answer) != answer) {
-              generateRandomQuestion()
+            if (Math.round(answer) !== answer && Math.round(answer * 2) !== answer * 2) {
+                generateRandomQuestion();
             }
             break;
         default:
             break;
     }
+
+    // Round the answer to either an integer or a multiple of 0.5
+    answer = Math.round(answer * 2) / 2;
 
     const question = `${operand1} ${operator} ${operand2}`;
     return { question, answer };
