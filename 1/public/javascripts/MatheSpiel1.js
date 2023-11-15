@@ -47,6 +47,8 @@ function generateRandomQuestion() {
                 operand2 = 1; // Prevent division by zero
             }
             answer = operand1 / operand2;
+            
+            // Ensure the answer is either an integer or a multiple of 0.5
             if (answer % 1 !== 0 && answer % 0.5 !== 0) {
                 generateRandomQuestion();
                 return;
@@ -58,7 +60,6 @@ function generateRandomQuestion() {
 
     const question = `${operand1} ${operator} ${operand2}`;
     return { question, answer };
-}
 
 let currentQuestion = generateRandomQuestion();
 
