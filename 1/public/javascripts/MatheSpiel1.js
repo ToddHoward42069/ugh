@@ -9,55 +9,56 @@ let difficulty = "incremental";
 
 // Function to generate random questions based on the selected difficulty level
 function generateRandomQuestion() {
-    let operand1, operand2, operator, answer;
+  let operand1, operand2, operator, answer;
 
-    switch (difficulty) {
-        case "incremental":
-            operand1 = Math.floor(Math.random() * 10) + 1;
-            operand2 = Math.floor(Math.random() * 10) + 1;
-            operator = ['+', '-', '*', '/'][Math.floor(Math.random() * 4)];
-            break;
-        case "easy":
-            operand1 = Math.floor(Math.random() * 10) + 1;
-            operand2 = Math.floor(Math.random() * 10) + 1;
-            operator = ['+', '-'][Math.floor(Math.random() * 2)];
-            break;
-        case "hard":
-            operand1 = Math.floor(Math.random() * 100) + 1;
-            operand2 = Math.floor(Math.random() * 100) + 1;
-            operator = ['+', '-', '*', '/'][Math.floor(Math.random() * 4)];
-            break;
-        default:
-            break;
-    }
+  switch (difficulty) {
+    case "incremental":
+      operand1 = Math.floor(Math.random() * 10) + 1;
+      operand2 = Math.floor(Math.random() * 10) + 1;
+      operator = ['+', '-', '*', '/'][Math.floor(Math.random() * 4)];
+      break;
+    case "easy":
+      operand1 = Math.floor(Math.random() * 10) + 1;
+      operand2 = Math.floor(Math.random() * 10) + 1;
+      operator = ['+', '-'][Math.floor(Math.random() * 2)];
+      break;
+    case "hard":
+      operand1 = Math.floor(Math.random() * 100) + 1;
+      operand2 = Math.floor(Math.random() * 100) + 1;
+      operator = ['+', '-', '*', '/'][Math.floor(Math.random() * 4)];
+      break;
+    default:
+      break;
+  }
 
-    // Calculate the answer based on the generated question
-    switch (operator) {
-        case '+':
-            answer = operand1 + operand2;
-            break;
-        case '-':
-            answer = operand1 - operand2;
-            break;
-        case '*':
-            answer = operand1 * operand2;
-            break;
-        case '/':
-            if (operand2 === 0) {
-                operand2 = 1; // Prevent division by zero
-            }
-            answer = operand1 / operand2;
-            if (Math.round(answer) === answer) {
-              operand2 = 2;
-              answer = operand1 / 2;
-            }
-            break;
-        default:
-            break;
-    }
+  // Calculate the answer based on the generated question
+  switch (operator) {
+    case '+':
+      answer = operand1 + operand2;
+      break;
+    case '-':
+      answer = operand1 - operand2;
+      break;
+    case '*':
+      answer = operand1 * operand2;
+      break;
+    case '/':
+      if (operand2 === 0) {
+        operand2 = 1; // Prevent division by zero
+      }
+      answer = operand1 / operand2;
 
-    const question = `${operand1} ${operator} ${operand2}`;
-    return { question, answer };
+      // Ensure the answer is either an integer or a multiple of 0.5
+      if (answer % 1 !== 0 && answer % 0.5 !== 0) {
+        return generateRandomQuestion();
+      }
+      break;
+    default:
+      break;
+  }
+
+  const question = `${operand1} ${operator} ${operand2}`;
+  return { question, answer };
 }
 
 let currentQuestion = generateRandomQuestion();

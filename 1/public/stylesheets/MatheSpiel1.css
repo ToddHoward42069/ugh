@@ -181,6 +181,7 @@ button {
 }
 
 #settings-btn {
+    color: white;
     padding-left: 6.75rem;
     background-color: transparent;
     transform: translate(18.8125rem, -26.875rem);
