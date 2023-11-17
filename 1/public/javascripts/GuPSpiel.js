@@ -132,7 +132,7 @@ let makeScene = function () {
     choice3.innerHTML = "..."
     sceneCode = "delta"
   } else if (sceneCode == "b2" || sceneCode == "b3" || sceneCode == "b123" || sceneCode == "b122" || sceneCode == "b1313" || sceneCode == "b13123") {
-    sceneCode = "delta1"
+    sceneCode = "delta"
   } else {
     sceneCode = "#"
     makeScene()
