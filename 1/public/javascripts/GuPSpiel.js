@@ -37,7 +37,7 @@ let makeScene = function () {
   } else if (sceneCode == "#13" || sceneCode == "#23" || sceneCode == "#33") {
     sceneCode = "#"
     makeScene()
-  } else if (sceneCode == "delta") {
+  } else if (sceneCode == "delta" || sceneCode == "delta1" || sceneCode == "delta2" || sceneCode == "delta3") {
     loreOut.innerHTML = "Blöde Idee. Jetzt bist du tot :(    Schade"
     choice1.innerHTML = "Aufgeben"
     choice2.innerHTML = "Aufgeben"
