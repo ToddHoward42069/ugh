@@ -96,27 +96,8 @@ let makeScene = function () {
     choice1.innerHTML = "Ergib dich"
     choice2.innerHTML = "Versuche es erneut"
     choice3.innerHTML = "..."
-  } else if (sceneCode == "b1211") {
-    loreOut.innerHTML = "Du gibst dich ergeben und wirst gefangen genommen."
-    choice1.innerHTML = "..."
-    choice2.innerHTML = "..."
-    choice3.innerHTML = "..."
-  } else if (sceneCode == "b1212") {
-    loreOut.innerHTML = "Du versuchst erneut, den Soldaten zu überzeugen, und er zeigt Anzeichen von Nachdenklichkeit."
-    choice1.innerHTML = "Weiter überzeugen"
-    choice2.innerHTML = "Warte auf eine Reaktion"
-    choice3.innerHTML = "..."
-  } else if (sceneCode == "b12121") {
-    loreOut.innerHTML = "Der Soldat scheint nachzugeben und lässt die Gefangene frei."
-    choice1.innerHTML = "Dankbar sein"
-    choice2.innerHTML = "Misstraue seiner Absicht"
-    choice3.innerHTML = "..."
-  } else if (sceneCode == "b12122") {
-    loreOut.innerHTML = "Der Soldat zeigt Bedauern, während er die Gefangene zur Exekution führt."
-    choice1.innerHTML = "Beobachte die Szene"
-    choice2.innerHTML = "Versuche einzugreifen"
-    choice3.innerHTML = "..."
-   } else if (sceneCode == "b13") {
+    sceneCode == "delta"
+  } else if (sceneCode == "b13") {
     loreOut.innerHTML = "Soldat: Dafür muss sie sterben! Ich lasse dich ihren Weg in die Hölle wählen."
     choice1.innerHTML = "Hängen"
     choice2.innerHTML = "Erschießen"
@@ -197,7 +178,7 @@ let makeScene = function () {
     choice2.innerHTML = "Finde eine Möglichkeit zur Wiedergutmachung"
     choice3.innerHTML = "..."
     sceneCode = "##"
-  } else if (sceneCode == "b2" || sceneCode == "b3" || sceneCode == "b123") {
+  } else if (sceneCode == "b2" || sceneCode == "b3" || sceneCode == "b123" || sceneCode == "b122") {
     sceneCode = "delta"
   } else {
     sceneCode = "#"
