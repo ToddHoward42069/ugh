@@ -81,6 +81,60 @@ let makeScene = function () {
     sceneCode = "f"
     makeScene()
     break;
+
+  case "a":
+    loreOut.innerHTML = "Du bist ein jüdisches Kind auf dem Schulweg und wirst von einer Gruppe älterer Kinder diskriminiert.";
+    choice1.innerHTML = "Diskutiere mit den Jugendlichen";
+    choice2.innerHTML = "Ignoriere sie und gehe weiter";
+    choice3.innerHTML = "Suche Hilfe bei einer Erwachsenen Person";
+    break;
+  case "a1":
+    loreOut.innerHTML = "Du versuchst, mit den Jugendlichen zu diskutieren, aber sie sind unerbittlich.";
+    choice1.innerHTML = "Erkläre ihnen die Unfairness ihrer Diskriminierung";
+    choice2.innerHTML = "Lasse sie in ihrem Glauben und gehe weiter";
+    choice3.innerHTML = "Suche Hilfe bei einer Erwachsenen Person";
+    break;
+  case "a11":
+    loreOut.innerHTML = "Du erklärst ihnen, warum ihre Diskriminierung unfair ist, aber sie hören nicht zu.";
+    choice1.innerHTML = "Versuche weiter zu diskutieren";
+    choice2.innerHTML = "Lasse sie in ihrem Glauben und gehe weiter";
+    choice3.innerHTML = "Suche Hilfe bei einer Erwachsenen Person";
+    break;
+  case "a12":
+  case "a13":
+    sceneCode = "a2";
+    makeScene();
+    break;
+  case "a2":
+    loreOut.innerHTML = "Du triffst auf eine ältere Dame, die nicht viel von den Nazis hält.";
+    choice1.innerHTML = "Erzähle ihr von deiner Begegnung mit den Jugendlichen";
+    choice2.innerHTML = "Frage sie nach ihrer Meinung zu den Rassengesetzen";
+    choice3.innerHTML = "Verabschiede dich und gehe weiter";
+    break;
+  case "a21":
+    loreOut.innerHTML = "Die Dame ist empört über das Verhalten der Jugendlichen und erklärt dir mehr über die Rassengesetze.";
+    choice1.innerHTML = "Danke ihr für die Informationen";
+    choice2.innerHTML = "Frage sie nach ihrer Meinung zu den Nationalsozialisten";
+    choice3.innerHTML = "Verabschiede dich und gehe weiter";
+    break;
+  case "a22":
+    loreOut.innerHTML = "Die Dame erklärt dir ihre Abneigung gegen die Nationalsozialisten und ihre Politik.";
+    choice1.innerHTML = "Danke ihr für das Gespräch";
+    choice2.innerHTML = "Frage sie nach ihrer Meinung zu den Rassengesetzen";
+    choice3.innerHTML = "Verabschiede dich und gehe weiter";
+    break;
+  case "a23":
+    sceneCode = "##1";
+    makeScene();
+    break;
+  case "a211":
+  case "a212":
+  case "a221":
+  case "a222":
+    sceneCode = "##1";
+    makeScene();
+    break;
+
   case "b":
     loreOut.innerHTML = "Soldat: Wache! Begleite diese Sozi-Gefangene zur Exekution."
     choice1.innerHTML = "Folge dem Befehl"
@@ -216,13 +270,67 @@ let makeScene = function () {
   case "b13123":
     sceneCode = "delta"
     break;
+  // ... bestehender Code ...
+
+  case "c":
+    loreOut.innerHTML = "Du bist ein Österreicher in einem gerade annektierten Dorf und triffst auf einen deutschen Soldaten.";
+    choice1.innerHTML = "Beschwere dich über die Annexion";
+    choice2.innerHTML = "Frage höflich, wie das Leben im Dritten Reich aussieht";
+    choice3.innerHTML = "Gehe einfach weiter";
+    break;
+  case "c1":
+    loreOut.innerHTML = "Der Soldat hört sich deine Beschwerden an, aber er scheint nicht besonders interessiert zu sein.";
+    choice1.innerHTML = "Drücke deine Unzufriedenheit weiter aus";
+    choice2.innerHTML = "Frage ihn nach den Regeln im Dritten Reich";
+    choice3.innerHTML = "Verlasse das Gespräch";
+    break;
+  case "c11":
+    loreOut.innerHTML = "Du drückst deine Unzufriedenheit weiter aus, aber der Soldat bleibt unbeeindruckt.";
+    choice1.innerHTML = "Beende das Gespräch";
+    choice2.innerHTML = "Frage ihn nach den Regeln im Dritten Reich";
+    choice3.innerHTML = "Verlasse das Gespräch";
+    break;
+  case "c12":
+  case "c13":
+    sceneCode = "c2";
+    makeScene();
+    break;
+  case "c2":
+    loreOut.innerHTML = "Der Soldat erklärt dir, wie das Leben im Dritten Reich aussieht und was du als normaler Bürger beachten und tun solltest.";
+    choice1.innerHTML = "Danke ihm für die Informationen";
+    choice2.innerHTML = "Frage ihn nach seiner Meinung zur Annexion";
+    choice3.innerHTML = "Verlasse das Gespräch";
+    break;
+  case "c21":
+    loreOut.innerHTML = "Du dankst dem Soldaten für die Informationen. Er nickt und geht weiter.";
+    choice1.innerHTML = "Gehe nach Hause";
+    choice2.innerHTML = "Bleibe stehen und denke nach";
+    choice3.innerHTML = "Verlasse das Gespräch";
+    sceneCode = "##1";
+    break;
+  case "c22":
+    loreOut.innerHTML = "Der Soldat zuckt mit den Schultern und sagt, dass er nur Befehle befolgt.";
+    choice1.innerHTML = "Danke ihm für das Gespräch";
+    choice2.innerHTML = "Bleibe stehen und denke nach";
+    choice3.innerHTML = "Verlasse das Gespräch";
+    sceneCode = "##1";
+    break;
+  case "c23":
+    sceneCode = "##1";
+    makeScene();
+    break;
+  case "c111":
+  case "c112":
+  case "c113":
+    sceneCode = "##1";
+    makeScene();
+    break;
   default:
     sceneCode = "#"
     makeScene()
   }
 }
   
-
 makeScene()
 
 choice1.addEventListener("click", function () {

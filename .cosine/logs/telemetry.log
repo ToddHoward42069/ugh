@@ -1140,3 +1140,1368 @@ INFO [2023-11-17T16:02:31.482Z]: [KeywordCodeSearch.diffIndex] Diff computed
 INFO [2023-11-17T16:02:31.482Z]: {"adding":0,"deleting":0}
 INFO [2023-11-17T16:02:31.510Z]: project_reinitialize_success
 INFO [2023-11-17T16:02:31.511Z]: {}
+INFO [2023-11-17T16:03:36.888Z]: Preparing to initialize extension
+INFO [2023-11-17T16:03:37.897Z]: Registering flag observer
+INFO [2023-11-17T16:03:37.898Z]: Navigating to loading page
+INFO [2023-11-17T16:03:37.898Z]: Navigation
+INFO [2023-11-17T16:03:37.898Z]: {"page":"/loading"}
+INFO [2023-11-17T16:03:37.899Z]: Initializing workspace controller
+INFO [2023-11-17T16:03:37.902Z]: Creating URI handler
+INFO [2023-11-17T16:03:37.902Z]: Getting auth service props
+INFO [2023-11-17T16:03:37.904Z]: Creating auth service
+INFO [2023-11-17T16:03:37.904Z]: Setting network auth service
+INFO [2023-11-17T16:03:37.904Z]: Creating context store
+INFO [2023-11-17T16:03:37.905Z]: Creating engine
+INFO [2023-11-17T16:03:37.905Z]: Creating sql db
+INFO [2023-11-17T16:03:45.495Z]: Creating vector db
+INFO [2023-11-17T16:03:45.497Z]: Creating config manager
+INFO [2023-11-17T16:03:46.333Z]: Get languages
+INFO [2023-11-17T16:03:46.333Z]: Reading ALL files
+INFO [2023-11-17T16:03:46.847Z]: Files: 31
+INFO [2023-11-17T16:03:46.848Z]: Counting languages
+INFO [2023-11-17T16:03:46.849Z]: Sorting languages
+INFO [2023-11-17T16:03:46.849Z]: Get Overview
+INFO [2023-11-17T16:03:46.850Z]: Creating code parser
+INFO [2023-11-17T16:03:46.850Z]: Creating code index
+INFO [2023-11-17T16:03:46.850Z]: Creating graphs
+INFO [2023-11-17T16:03:46.851Z]: Creating tagger
+INFO [2023-11-17T16:03:46.851Z]: Creating semantic
+INFO [2023-11-17T16:03:46.851Z]: Creating keyword
+INFO [2023-11-17T16:03:46.851Z]: Creating file search
+INFO [2023-11-17T16:03:46.851Z]: Initializing engine
+INFO [2023-11-17T16:03:47.798Z]: [CodeTagger.init] Initializing
+INFO [2023-11-17T16:03:47.809Z]: Initializing history service
+INFO [2023-11-17T16:03:47.809Z]: Creating project bot props
+INFO [2023-11-17T16:03:47.809Z]: Creating plan service
+INFO [2023-11-17T16:03:47.809Z]: Creating terms service
+INFO [2023-11-17T16:03:47.809Z]: Creating auth controller
+INFO [2023-11-17T16:03:47.810Z]: Initializing auth controller
+INFO [2023-11-17T16:03:47.811Z]: Checking auth
+INFO [2023-11-17T16:03:48.090Z]: Set User: 2AI2X7dmk1ZGODgXjuGnNWZ0uKA2
+INFO [2023-11-17T16:03:48.111Z]: Creating plan controller
+INFO [2023-11-17T16:03:48.111Z]: Initializing plan controller
+INFO [2023-11-17T16:03:48.616Z]: Creating status controller
+INFO [2023-11-17T16:03:48.617Z]: Creating chat bot
+INFO [2023-11-17T16:03:48.618Z]: Creating git service
+INFO [2023-11-17T16:03:48.618Z]: Creating user context
+INFO [2023-11-17T16:03:48.618Z]: Creating search controller
+INFO [2023-11-17T16:03:48.619Z]: Initializing search controller
+INFO [2023-11-17T16:03:48.626Z]: Creating index controller
+INFO [2023-11-17T16:03:48.626Z]: Initializing index controller
+INFO [2023-11-17T16:03:48.627Z]: Creating migrate controller
+INFO [2023-11-17T16:03:48.627Z]: Initializing migrate controller
+INFO [2023-11-17T16:03:48.627Z]: Creating settings controller
+INFO [2023-11-17T16:03:48.627Z]: Initializing settings controller
+INFO [2023-11-17T16:03:48.628Z]: Creating navigation controller
+INFO [2023-11-17T16:03:48.628Z]: Initializing navigation controller
+INFO [2023-11-17T16:03:48.628Z]: Registering auth service with auth controller
+INFO [2023-11-17T16:03:48.628Z]: Calculating navigation
+INFO [2023-11-17T16:03:48.709Z]: Navigation
+INFO [2023-11-17T16:03:48.710Z]: {"page":"/home"}
+INFO [2023-11-17T16:03:48.715Z]: Fully initialized!
+INFO [2023-11-17T16:03:48.719Z]: project_reinitialize_start
+INFO [2023-11-17T16:03:48.719Z]: {}
+INFO [2023-11-17T16:03:48.720Z]: extension_initialized
+INFO [2023-11-17T16:03:48.720Z]: {"timeToInit":11828}
+INFO [2023-11-17T16:03:49.456Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:03:49.457Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:03:49.457Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:03:49.458Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:03:49.458Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:03:49.459Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:03:49.459Z]: {"length":0}
+INFO [2023-11-17T16:03:49.459Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:03:49.460Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:03:49.460Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:03:49.460Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:03:49.461Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:03:49.461Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:03:49.516Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:03:49.517Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:03:49.517Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:03:49.517Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:03:49.517Z]: {"embeddingsToDelete":0}
+INFO [2023-11-17T16:03:49.519Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:03:49.519Z]: {"write":0}
+INFO [2023-11-17T16:03:49.809Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:03:49.809Z]: {"resuts":0,"delete":0}
+INFO [2023-11-17T16:03:49.809Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:03:49.809Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-17T16:03:49.816Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:03:49.830Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:03:49.981Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:03:49.983Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:03:49.985Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:03:49.985Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:03:50.000Z]: project_reinitialize_success
+INFO [2023-11-17T16:03:50.000Z]: {}
+INFO [2023-11-17T16:05:14.428Z]: question_start
+INFO [2023-11-17T16:05:14.428Z]: {"prompt":"Schreibe ein Szenario und führe den code weiter für Szenario a. Hier die Notizen: 1935-Das Nürnberger Rassengesetz: Man spielt ein jüdisches Kind, das auf dem Schulweg von einer Gruppe älterer Kinder diskriminiert wird. Während einem kurzem Gespräch mit den Jugendlichen und einem etwas längerem Gespräch mit einer alten Dame, die nicht allzu viel von den Nazis hält, erfährt man einiges über die Rassengesetze und die Diskriminierung durch die Nationalsozialisten."}
+INFO [2023-11-17T16:06:06.386Z]: question_success
+INFO [2023-11-17T16:06:06.387Z]: {"prompt":"Schreibe ein Szenario und führe den code weiter für Szenario a. Hier die Notizen: 1935-Das Nürnberger Rassengesetz: Man spielt ein jüdisches Kind, das auf dem Schulweg von einer Gruppe älterer Kinder diskriminiert wird. Während einem kurzem Gespräch mit den Jugendlichen und einem etwas längerem Gespräch mit einer alten Dame, die nicht allzu viel von den Nazis hält, erfährt man einiges über die Rassengesetze und die Diskriminierung durch die Nationalsozialisten."}
+INFO [2023-11-17T16:06:30.923Z]: project_reinitialize_start
+INFO [2023-11-17T16:06:30.923Z]: {}
+INFO [2023-11-17T16:06:31.095Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:06:31.096Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:06:31.096Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:31.390Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:06:31.390Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:31.390Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:32.104Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:06:32.104Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:32.447Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:06:32.447Z]: {"length":1}
+INFO [2023-11-17T16:06:32.597Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:32.598Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:32.600Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:32.600Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:06:32.602Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:06:32.602Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:32.602Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:06:32.603Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:06:32.604Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:06:32.604Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:06:32.625Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:06:32.626Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:06:32.626Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:06:32.626Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:32.702Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:06:32.704Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:06:32.705Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:06:32.705Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:32.705Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:06:32.705Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:06:32.706Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:06:32.706Z]: {"write":1}
+INFO [2023-11-17T16:06:33.483Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:06:33.483Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:06:33.483Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:06:33.483Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:06:33.505Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:06:33.528Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:06:33.872Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:06:33.874Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:06:33.876Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:06:33.876Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:06:33.904Z]: project_reinitialize_success
+INFO [2023-11-17T16:06:33.905Z]: {}
+INFO [2023-11-17T16:06:37.471Z]: project_reinitialize_start
+INFO [2023-11-17T16:06:37.473Z]: {}
+INFO [2023-11-17T16:06:37.842Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:06:37.843Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:06:37.843Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:37.853Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:06:37.853Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:37.853Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:37.918Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:06:37.919Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:38.275Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:38.276Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:38.277Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:38.277Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:06:38.277Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:06:38.277Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:38.277Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:06:38.497Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:06:38.498Z]: {"length":1}
+INFO [2023-11-17T16:06:38.499Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:06:38.499Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:06:38.499Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:06:38.515Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:06:38.516Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:06:38.516Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:06:38.516Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:38.668Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:06:38.670Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:06:38.670Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:06:38.670Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:38.670Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:06:38.670Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:06:38.671Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:06:38.671Z]: {"write":1}
+INFO [2023-11-17T16:06:39.621Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:06:39.623Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:06:39.624Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:06:39.624Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:06:39.685Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:06:39.723Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:06:39.750Z]: project_reinitialize_start
+INFO [2023-11-17T16:06:39.750Z]: {}
+INFO [2023-11-17T16:06:40.034Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:06:40.035Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:06:40.037Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:06:40.037Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:06:40.121Z]: project_reinitialize_success
+INFO [2023-11-17T16:06:40.122Z]: {}
+INFO [2023-11-17T16:06:40.498Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:06:40.500Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:06:40.500Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:40.521Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:06:40.521Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:40.521Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:40.600Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:06:40.601Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:40.937Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:40.938Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:40.938Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:40.938Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:06:40.938Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:06:40.938Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:40.938Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:06:41.170Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:06:41.171Z]: {"length":1}
+INFO [2023-11-17T16:06:41.171Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:06:41.172Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:06:41.172Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:06:41.180Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:06:41.180Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:06:41.180Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:06:41.180Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:41.217Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:06:41.223Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:06:41.223Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:06:41.223Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:41.223Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:06:41.223Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:06:41.223Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:06:41.223Z]: {"write":1}
+INFO [2023-11-17T16:06:41.544Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:06:41.545Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:06:41.546Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:06:41.546Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:06:41.561Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:06:41.576Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:06:41.805Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:06:41.807Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:06:41.809Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:06:41.809Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:06:41.874Z]: project_reinitialize_success
+INFO [2023-11-17T16:06:41.875Z]: {}
+INFO [2023-11-17T16:06:45.547Z]: project_reinitialize_start
+INFO [2023-11-17T16:06:45.547Z]: {}
+INFO [2023-11-17T16:06:45.904Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:06:45.906Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:06:45.906Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:45.925Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:06:45.925Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:45.925Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:46.008Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:06:46.009Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:46.431Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:46.432Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:46.432Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:46.432Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:06:46.433Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:06:46.433Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:46.433Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:06:46.757Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:06:46.758Z]: {"length":1}
+INFO [2023-11-17T16:06:46.758Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:06:46.758Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:06:46.758Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:06:46.764Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:06:46.764Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:06:46.764Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:06:46.764Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:46.813Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:06:46.814Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:06:46.815Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:06:46.815Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:46.815Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:06:46.815Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:06:46.815Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:06:46.815Z]: {"write":1}
+INFO [2023-11-17T16:06:47.095Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:06:47.096Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:06:47.096Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:06:47.096Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:06:47.102Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:06:47.141Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:06:47.265Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:06:47.266Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:06:47.268Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:06:47.268Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:06:47.288Z]: project_reinitialize_success
+INFO [2023-11-17T16:06:47.288Z]: {}
+INFO [2023-11-17T16:06:50.724Z]: project_reinitialize_start
+INFO [2023-11-17T16:06:50.725Z]: {}
+INFO [2023-11-17T16:06:50.752Z]: project_reinitialize_start
+INFO [2023-11-17T16:06:50.752Z]: {}
+INFO [2023-11-17T16:06:51.023Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:06:51.024Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:06:51.024Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:51.042Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:06:51.042Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:51.042Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:51.089Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:06:51.090Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:51.372Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:51.373Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:51.373Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:51.373Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:06:51.373Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:06:51.373Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:51.373Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:06:51.864Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:06:51.864Z]: {"length":1}
+INFO [2023-11-17T16:06:51.865Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:06:51.865Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:06:51.865Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:06:51.869Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:06:51.869Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:06:51.869Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:06:51.869Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:51.894Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:06:51.896Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:06:51.897Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:06:51.897Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:51.897Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:06:51.897Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:06:51.897Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:06:51.897Z]: {"write":1}
+INFO [2023-11-17T16:06:52.157Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:06:52.157Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:06:52.158Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:06:52.158Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:06:52.163Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:06:52.169Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:06:52.306Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:06:52.307Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:06:52.309Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:06:52.309Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:06:52.320Z]: project_reinitialize_success
+INFO [2023-11-17T16:06:52.320Z]: {}
+INFO [2023-11-17T16:06:52.493Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:06:52.493Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:06:52.493Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:06:52.493Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:06:52.493Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:06:52.494Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:06:52.494Z]: {"length":0}
+INFO [2023-11-17T16:06:52.494Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:06:52.494Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:06:52.494Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:06:52.494Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:06:52.494Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:06:52.494Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:06:52.541Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:06:52.542Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:06:52.542Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:06:52.542Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:06:52.542Z]: {"embeddingsToDelete":0}
+INFO [2023-11-17T16:06:52.542Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:06:52.542Z]: {"write":0}
+INFO [2023-11-17T16:06:52.879Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:06:52.880Z]: {"resuts":0,"delete":0}
+INFO [2023-11-17T16:06:52.880Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:06:52.880Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-17T16:06:52.887Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:06:52.894Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:06:53.040Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:06:53.041Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:06:53.042Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:06:53.042Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:06:53.054Z]: project_reinitialize_success
+INFO [2023-11-17T16:06:53.058Z]: {}
+INFO [2023-11-17T16:06:53.484Z]: project_reinitialize_start
+INFO [2023-11-17T16:06:53.485Z]: {}
+INFO [2023-11-17T16:06:53.658Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:06:53.659Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:06:53.659Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:53.675Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:06:53.675Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:53.675Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:53.729Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:06:53.730Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:54.003Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:54.003Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:54.004Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:54.004Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:06:54.004Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:06:54.004Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:54.004Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:06:54.320Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:06:54.321Z]: {"length":1}
+INFO [2023-11-17T16:06:54.321Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:06:54.322Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:06:54.322Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:06:54.326Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:06:54.326Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:06:54.326Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:06:54.326Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:54.367Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:06:54.375Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:06:54.376Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:06:54.376Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:54.376Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:06:54.376Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:06:54.377Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:06:54.377Z]: {"write":1}
+INFO [2023-11-17T16:06:54.669Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:06:54.670Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:06:54.670Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:06:54.670Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:06:54.675Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:06:54.684Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:06:54.806Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:06:54.807Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:06:54.809Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:06:54.809Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:06:54.819Z]: project_reinitialize_success
+INFO [2023-11-17T16:06:54.820Z]: {}
+INFO [2023-11-17T16:06:58.539Z]: project_reinitialize_start
+INFO [2023-11-17T16:06:58.539Z]: {}
+INFO [2023-11-17T16:06:58.777Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:06:58.777Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:06:58.777Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:58.786Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:06:58.786Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:58.786Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:58.994Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:06:58.996Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:59.343Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:59.344Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:06:59.344Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:06:59.344Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:06:59.344Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:06:59.344Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:59.344Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:06:59.517Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:06:59.517Z]: {"length":1}
+INFO [2023-11-17T16:06:59.517Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:06:59.517Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:06:59.517Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:06:59.521Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:06:59.521Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:06:59.521Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:06:59.521Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:06:59.544Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:06:59.552Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:06:59.552Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:06:59.552Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:06:59.552Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:06:59.552Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:06:59.552Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:06:59.552Z]: {"write":1}
+INFO [2023-11-17T16:06:59.789Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:06:59.790Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:06:59.790Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:06:59.790Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:06:59.796Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:06:59.808Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:00.142Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:00.144Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:00.146Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:00.146Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:00.218Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:00.219Z]: {}
+INFO [2023-11-17T16:07:00.514Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:00.517Z]: {}
+INFO [2023-11-17T16:07:01.349Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:01.350Z]: {}
+INFO [2023-11-17T16:07:01.438Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:01.439Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:01.439Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:01.459Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:01.459Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:01.459Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:01.561Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:07:01.562Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:02.041Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:02.042Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:02.043Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:02.043Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:07:02.044Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:07:02.044Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:02.044Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:02.216Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:02.217Z]: {"length":1}
+INFO [2023-11-17T16:07:02.217Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:02.218Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:02.218Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:02.229Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:02.229Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:02.229Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:07:02.229Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:02.343Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:02.381Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:02.381Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:02.381Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:02.381Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:02.381Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:07:02.382Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:02.382Z]: {"write":1}
+INFO [2023-11-17T16:07:02.737Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:02.737Z]: {}
+INFO [2023-11-17T16:07:02.757Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:02.757Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:07:02.757Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:02.757Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:07:02.764Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:02.771Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:02.919Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:02.921Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:02.924Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:02.924Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:02.936Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:02.936Z]: {}
+INFO [2023-11-17T16:07:03.102Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:03.103Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:03.103Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:03.111Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:03.111Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:03.111Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:03.161Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:07:03.162Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:03.427Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:03.427Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:03.428Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:03.428Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:07:03.428Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:07:03.428Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:03.428Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:03.696Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:03.697Z]: {"length":1}
+INFO [2023-11-17T16:07:03.698Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:03.698Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:03.698Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:03.702Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:03.702Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:03.702Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:07:03.702Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:03.732Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:03.738Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:03.738Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:03.738Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:03.738Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:03.738Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:07:03.739Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:03.739Z]: {"write":1}
+INFO [2023-11-17T16:07:03.946Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:03.946Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:07:03.947Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:03.947Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:07:03.953Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:03.958Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:04.079Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:04.080Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:04.081Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:04.081Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:04.094Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:04.095Z]: {}
+INFO [2023-11-17T16:07:04.470Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:04.471Z]: {}
+INFO [2023-11-17T16:07:04.852Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:04.853Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:04.853Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:04.876Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:04.877Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:04.877Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:04.978Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:07:04.979Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:05.275Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:05.276Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:05.276Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:05.276Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:07:05.276Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:07:05.276Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:05.276Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:05.533Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:05.534Z]: {"length":1}
+INFO [2023-11-17T16:07:05.534Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:05.534Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:05.534Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:05.539Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:05.539Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:05.539Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:07:05.539Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:05.614Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:05.622Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:05.622Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:05.623Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:05.623Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:05.623Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:07:05.623Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:05.623Z]: {"write":1}
+INFO [2023-11-17T16:07:06.374Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:06.375Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:07:06.376Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:06.376Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:07:06.400Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:06.469Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:06.764Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:06.765Z]: {}
+INFO [2023-11-17T16:07:06.979Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:06.980Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:06.982Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:06.982Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:07.008Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:07.009Z]: {}
+INFO [2023-11-17T16:07:07.274Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:07.275Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:07.275Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:07.286Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:07.286Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:07.286Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:07.377Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:07:07.378Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:07.795Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:07.796Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:07.796Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:07.796Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:07:07.796Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:07:07.796Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:07.796Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:08.018Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:08.019Z]: {"length":1}
+INFO [2023-11-17T16:07:08.019Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:08.019Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:08.019Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:08.023Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:08.023Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:08.023Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:07:08.023Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:08.089Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:08.091Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:08.091Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:08.091Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:08.091Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:08.091Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:07:08.091Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:08.091Z]: {"write":1}
+INFO [2023-11-17T16:07:08.346Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:08.346Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:07:08.347Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:08.347Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:07:08.354Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:08.363Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:08.484Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:08.485Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:08.486Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:08.486Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:08.501Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:08.501Z]: {}
+INFO [2023-11-17T16:07:08.737Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:08.739Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:08.739Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:07:08.739Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:08.739Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:08.740Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:08.740Z]: {"length":0}
+INFO [2023-11-17T16:07:08.741Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:08.741Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:08.741Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:08.741Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:08.741Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:08.741Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:08.800Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:08.802Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:08.802Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:07:08.802Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:08.802Z]: {"embeddingsToDelete":0}
+INFO [2023-11-17T16:07:08.803Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:08.803Z]: {"write":0}
+INFO [2023-11-17T16:07:09.081Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:09.082Z]: {"resuts":0,"delete":0}
+INFO [2023-11-17T16:07:09.082Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:09.082Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-17T16:07:09.088Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:09.093Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:09.197Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:09.198Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:09.199Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:09.199Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:09.210Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:09.210Z]: {}
+INFO [2023-11-17T16:07:10.326Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:10.327Z]: {}
+INFO [2023-11-17T16:07:10.367Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:10.367Z]: {}
+INFO [2023-11-17T16:07:10.572Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:10.573Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:10.573Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:10.583Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:10.583Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:10.583Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:10.622Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:07:10.622Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:10.850Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:10.851Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:10.851Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:10.851Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:07:10.851Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:07:10.851Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:10.851Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:11.136Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:11.136Z]: {"length":1}
+INFO [2023-11-17T16:07:11.137Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:11.137Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:11.137Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:11.141Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:11.141Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:11.141Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:07:11.141Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:11.178Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:11.200Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:11.201Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:11.201Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:11.201Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:11.201Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:07:11.201Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:11.201Z]: {"write":1}
+INFO [2023-11-17T16:07:11.448Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:11.449Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:07:11.449Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:11.449Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:07:11.457Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:11.529Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:11.674Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:11.676Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:11.679Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:11.679Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:11.726Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:11.727Z]: {}
+INFO [2023-11-17T16:07:11.930Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:11.931Z]: {}
+INFO [2023-11-17T16:07:12.139Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:12.140Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:12.140Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:12.153Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:12.153Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:12.153Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:12.224Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:07:12.225Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:12.526Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:12.527Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:12.527Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:12.527Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:07:12.527Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:07:12.527Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:12.527Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:12.815Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:12.816Z]: {"length":1}
+INFO [2023-11-17T16:07:12.817Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:12.817Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:12.817Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:12.824Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:12.824Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:12.824Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:07:12.824Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:12.900Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:12.903Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:12.903Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:12.903Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:12.903Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:12.903Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:07:12.904Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:12.904Z]: {"write":1}
+INFO [2023-11-17T16:07:13.336Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:13.336Z]: {}
+INFO [2023-11-17T16:07:13.394Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:13.395Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:07:13.395Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:13.395Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:07:13.438Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:13.458Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:13.643Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:13.644Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:13.646Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:13.646Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:13.682Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:13.684Z]: {}
+INFO [2023-11-17T16:07:14.828Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:14.829Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:14.829Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:14.855Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:14.855Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:14.855Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:14.970Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:07:14.971Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:14.981Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:14.981Z]: {}
+INFO [2023-11-17T16:07:15.302Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:15.303Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:15.303Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:15.303Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:07:15.303Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:07:15.303Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:15.303Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:15.601Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:15.602Z]: {"length":1}
+INFO [2023-11-17T16:07:15.602Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:15.602Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:15.602Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:15.607Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:15.607Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:15.607Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:07:15.607Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:15.638Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:15.645Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:15.645Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:15.645Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:15.645Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:15.645Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:07:15.645Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:15.645Z]: {"write":1}
+INFO [2023-11-17T16:07:15.880Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:15.881Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:07:15.882Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:15.882Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:07:15.887Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:15.893Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:16.019Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:16.020Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:16.022Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:16.022Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:16.035Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:16.035Z]: {}
+INFO [2023-11-17T16:07:16.216Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:16.218Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:16.218Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:07:16.218Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:16.218Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:16.218Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:16.218Z]: {"length":0}
+INFO [2023-11-17T16:07:16.218Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:16.218Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:16.218Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:16.218Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:16.218Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:16.218Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:16.262Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:16.263Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:16.263Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:07:16.263Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:16.263Z]: {"embeddingsToDelete":0}
+INFO [2023-11-17T16:07:16.263Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:16.263Z]: {"write":0}
+INFO [2023-11-17T16:07:16.548Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:16.549Z]: {"resuts":0,"delete":0}
+INFO [2023-11-17T16:07:16.550Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:16.550Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-17T16:07:16.558Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:16.564Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:16.660Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:16.661Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:16.663Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:16.663Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:16.678Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:16.679Z]: {}
+INFO [2023-11-17T16:07:16.893Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:16.894Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:16.894Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:07:16.894Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:16.894Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:16.894Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:16.894Z]: {"length":0}
+INFO [2023-11-17T16:07:16.894Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:16.895Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:16.895Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:16.895Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:16.895Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:16.895Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:16.942Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:16.943Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:16.943Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:07:16.943Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:16.943Z]: {"embeddingsToDelete":0}
+INFO [2023-11-17T16:07:16.944Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:16.944Z]: {"write":0}
+INFO [2023-11-17T16:07:17.214Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:17.214Z]: {"resuts":0,"delete":0}
+INFO [2023-11-17T16:07:17.214Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:17.214Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-17T16:07:17.228Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:17.236Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:17.345Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:17.345Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:17.346Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:17.346Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:17.354Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:17.355Z]: {}
+INFO [2023-11-17T16:07:21.375Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:21.376Z]: {}
+INFO [2023-11-17T16:07:21.725Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:21.727Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:21.727Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:21.747Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:21.747Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:21.747Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:21.897Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:07:21.899Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:22.296Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:22.297Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:22.297Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:22.297Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:07:22.297Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:07:22.297Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:22.297Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:22.540Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:22.541Z]: {"length":1}
+INFO [2023-11-17T16:07:22.541Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:22.541Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:22.541Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:22.546Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:22.546Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:22.546Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:07:22.546Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:22.579Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:22.582Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:22.582Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:22.582Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:22.582Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:22.582Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:07:22.583Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:22.583Z]: {"write":1}
+INFO [2023-11-17T16:07:22.824Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:22.825Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:07:22.825Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:22.825Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:07:22.832Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:22.837Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:22.962Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:22.963Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:22.964Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:22.964Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:22.975Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:22.975Z]: {}
+INFO [2023-11-17T16:07:30.523Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:30.524Z]: {}
+INFO [2023-11-17T16:07:30.812Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:30.813Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:30.813Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:30.832Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:30.833Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:30.833Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:30.916Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:07:30.917Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:31.302Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:31.303Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:31.303Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:31.303Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:07:31.304Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:07:31.304Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:31.304Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:31.485Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:31.486Z]: {"length":1}
+INFO [2023-11-17T16:07:31.486Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:31.486Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:31.487Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:31.491Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:31.491Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:31.491Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:07:31.491Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:31.529Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:31.530Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:31.530Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:31.530Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:31.530Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:31.530Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:07:31.531Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:31.531Z]: {"write":1}
+INFO [2023-11-17T16:07:31.760Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:31.761Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:07:31.761Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:31.761Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:07:31.766Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:31.772Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:31.921Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:31.922Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:31.923Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:31.923Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:31.933Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:31.934Z]: {}
+INFO [2023-11-17T16:07:36.466Z]: project_reinitialize_start
+INFO [2023-11-17T16:07:36.468Z]: {}
+INFO [2023-11-17T16:07:36.844Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:07:36.846Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:07:36.846Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:36.880Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:07:36.880Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:36.880Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:37.047Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:07:37.049Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:37.382Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:37.383Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:07:37.383Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:07:37.383Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:07:37.383Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:07:37.383Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:37.383Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:07:37.723Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:07:37.724Z]: {"length":1}
+INFO [2023-11-17T16:07:37.725Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:07:37.725Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:07:37.725Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:07:37.729Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:07:37.729Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:07:37.729Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:07:37.729Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:07:37.771Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:07:37.772Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:07:37.773Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:07:37.773Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:07:37.773Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:07:37.773Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:07:37.773Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:07:37.773Z]: {"write":1}
+INFO [2023-11-17T16:07:38.028Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:07:38.029Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:07:38.030Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:07:38.030Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:07:38.040Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:07:38.050Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:07:38.147Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:07:38.148Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:07:38.149Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:07:38.149Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:07:38.159Z]: project_reinitialize_success
+INFO [2023-11-17T16:07:38.160Z]: {}
+INFO [2023-11-17T16:10:48.630Z]: question_start
+INFO [2023-11-17T16:10:48.630Z]: {"prompt":"Schreibe ein Szenario und führe den code weiter für Szenario c. Hier die Notizen: 1938-Annexion Österreichs: Ein Österreicher, welchen der Spieler verkörpert, redet in einem gerade annektierten Dorf mit einem deutschen Soldaten. Direkt am Anfang des Szenarios wählt man aus, ob man sich beschwert, oder den Soldaten höflich fragt, wie das Leben im Dritten Reich aussieht, und was man als normaler Bürger beachten und tun sollte."}
+INFO [2023-11-17T16:11:28.357Z]: question_success
+INFO [2023-11-17T16:11:28.358Z]: {"prompt":"Schreibe ein Szenario und führe den code weiter für Szenario c. Hier die Notizen: 1938-Annexion Österreichs: Ein Österreicher, welchen der Spieler verkörpert, redet in einem gerade annektierten Dorf mit einem deutschen Soldaten. Direkt am Anfang des Szenarios wählt man aus, ob man sich beschwert, oder den Soldaten höflich fragt, wie das Leben im Dritten Reich aussieht, und was man als normaler Bürger beachten und tun sollte."}
+INFO [2023-11-17T16:12:02.484Z]: project_reinitialize_start
+INFO [2023-11-17T16:12:02.485Z]: {}
+INFO [2023-11-17T16:12:03.500Z]: project_reinitialize_start
+INFO [2023-11-17T16:12:03.501Z]: {}
+INFO [2023-11-17T16:12:03.751Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:12:03.754Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:12:03.754Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:12:03.769Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:12:03.770Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:03.770Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:03.884Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:12:03.886Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:12:04.395Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:04.398Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:12:04.399Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:04.399Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:12:04.399Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:12:04.399Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:04.400Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:12:04.806Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:12:04.808Z]: {"length":1}
+INFO [2023-11-17T16:12:04.808Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:12:04.809Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:12:04.809Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:12:04.819Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:12:04.819Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:12:04.819Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:12:04.819Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:05.097Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:12:05.109Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:12:05.109Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:12:05.109Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:12:05.109Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:12:05.109Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:12:05.110Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:12:05.110Z]: {"write":1}
+INFO [2023-11-17T16:12:06.004Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:12:06.004Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:12:06.004Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:12:06.004Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:12:06.056Z]: project_reinitialize_start
+INFO [2023-11-17T16:12:06.058Z]: {}
+INFO [2023-11-17T16:12:06.088Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:12:06.130Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:12:06.272Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:12:06.273Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:12:06.274Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:12:06.274Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:12:06.286Z]: project_reinitialize_success
+INFO [2023-11-17T16:12:06.287Z]: {}
+INFO [2023-11-17T16:12:06.527Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:12:06.529Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:12:06.529Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:12:06.539Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:12:06.540Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:06.540Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:06.586Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:12:06.587Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:12:06.933Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:06.934Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:12:06.935Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:06.935Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:12:06.935Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:12:06.935Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:06.935Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:12:07.236Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:12:07.238Z]: {"length":1}
+INFO [2023-11-17T16:12:07.238Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:12:07.238Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:12:07.238Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:12:07.245Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:12:07.245Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:12:07.245Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:12:07.245Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:07.284Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:12:07.306Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:12:07.306Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:12:07.306Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:12:07.306Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:12:07.306Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:12:07.307Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:12:07.307Z]: {"write":1}
+INFO [2023-11-17T16:12:07.763Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:12:07.765Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:12:07.765Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:12:07.765Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:12:07.775Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:12:07.795Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:12:07.960Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:12:07.961Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:12:07.962Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:12:07.962Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:12:07.985Z]: project_reinitialize_success
+INFO [2023-11-17T16:12:07.987Z]: {}
+INFO [2023-11-17T16:12:08.152Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:12:08.153Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:12:08.153Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:12:08.153Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:12:08.153Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:12:08.154Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:12:08.154Z]: {"length":0}
+INFO [2023-11-17T16:12:08.154Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:12:08.154Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:12:08.154Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:12:08.154Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:12:08.154Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:12:08.154Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:12:08.198Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:12:08.199Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:12:08.199Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:12:08.200Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:12:08.200Z]: {"embeddingsToDelete":0}
+INFO [2023-11-17T16:12:08.200Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:12:08.200Z]: {"write":0}
+INFO [2023-11-17T16:12:08.533Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:12:08.534Z]: {"resuts":0,"delete":0}
+INFO [2023-11-17T16:12:08.534Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:12:08.534Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-17T16:12:08.540Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:12:08.549Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:12:08.688Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:12:08.689Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:12:08.689Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:12:08.689Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:12:08.705Z]: project_reinitialize_success
+INFO [2023-11-17T16:12:08.706Z]: {}
+INFO [2023-11-17T16:12:10.087Z]: project_reinitialize_start
+INFO [2023-11-17T16:12:10.087Z]: {}
+INFO [2023-11-17T16:12:10.608Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:12:10.609Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:12:10.609Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:12:10.641Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:12:10.641Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:10.641Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:10.842Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:12:10.843Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:12:11.187Z]: project_reinitialize_start
+INFO [2023-11-17T16:12:11.189Z]: {}
+INFO [2023-11-17T16:12:11.330Z]: project_reinitialize_start
+INFO [2023-11-17T16:12:11.331Z]: {}
+INFO [2023-11-17T16:12:11.369Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:11.370Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:12:11.370Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:11.370Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:12:11.370Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:12:11.370Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:11.370Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:12:11.449Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:12:11.451Z]: {"length":1}
+INFO [2023-11-17T16:12:11.452Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:12:11.452Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:12:11.452Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:12:11.462Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:12:11.462Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:12:11.462Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:12:11.462Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:11.532Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:12:11.670Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:12:11.670Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:12:11.670Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:12:11.670Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:12:11.670Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:12:11.672Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:12:11.672Z]: {"write":1}
+INFO [2023-11-17T16:12:12.150Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:12:12.151Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:12:12.151Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:12:12.151Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:12:12.161Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:12:12.168Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:12:12.319Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:12:12.320Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:12:12.321Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:12:12.321Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:12:12.334Z]: project_reinitialize_success
+INFO [2023-11-17T16:12:12.335Z]: {}
+INFO [2023-11-17T16:12:12.580Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:12:12.583Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:12:12.583Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:12:12.597Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:12:12.597Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:12.597Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:12.665Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:12:12.666Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:12:13.015Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:13.016Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:12:13.017Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:13.017Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:12:13.017Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:12:13.017Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:13.017Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:12:13.241Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:12:13.242Z]: {"length":1}
+INFO [2023-11-17T16:12:13.242Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:12:13.242Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:12:13.242Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:12:13.248Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:12:13.248Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:12:13.248Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:12:13.248Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:13.297Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:12:13.302Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:12:13.302Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:12:13.302Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:12:13.302Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:12:13.302Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:12:13.303Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:12:13.303Z]: {"write":1}
+INFO [2023-11-17T16:12:13.507Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:12:13.508Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:12:13.509Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:12:13.509Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:12:13.518Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:12:13.525Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:12:13.650Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:12:13.651Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:12:13.652Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:12:13.652Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:12:13.667Z]: project_reinitialize_success
+INFO [2023-11-17T16:12:13.668Z]: {}
+INFO [2023-11-17T16:12:13.826Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:12:13.827Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:12:13.827Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:12:13.827Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:12:13.827Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:12:13.827Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:12:13.827Z]: {"length":0}
+INFO [2023-11-17T16:12:13.827Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:12:13.828Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:12:13.828Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:12:13.828Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:12:13.828Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:12:13.828Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:12:13.870Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:12:13.871Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:12:13.871Z]: {"added":0,"deleted":0}
+INFO [2023-11-17T16:12:13.871Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:12:13.871Z]: {"embeddingsToDelete":0}
+INFO [2023-11-17T16:12:13.871Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:12:13.871Z]: {"write":0}
+INFO [2023-11-17T16:12:14.123Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:12:14.123Z]: {"resuts":0,"delete":0}
+INFO [2023-11-17T16:12:14.123Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:12:14.123Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-17T16:12:14.131Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:12:14.147Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:12:14.267Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:12:14.268Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:12:14.268Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:12:14.268Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:12:14.282Z]: project_reinitialize_success
+INFO [2023-11-17T16:12:14.282Z]: {}
+INFO [2023-11-17T16:12:30.323Z]: project_reinitialize_start
+INFO [2023-11-17T16:12:30.323Z]: {}
+INFO [2023-11-17T16:12:30.690Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:12:30.691Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:12:30.691Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:12:30.712Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:12:30.712Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:30.712Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:30.796Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:12:30.797Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:12:31.288Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:31.289Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:12:31.289Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:31.289Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:12:31.290Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:12:31.290Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:31.290Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:12:31.596Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:12:31.597Z]: {"length":1}
+INFO [2023-11-17T16:12:31.597Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:12:31.598Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:12:31.598Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:12:31.602Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:12:31.602Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:12:31.602Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:12:31.602Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:31.628Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:12:31.631Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:12:31.631Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:12:31.631Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:12:31.631Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:12:31.631Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:12:31.631Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:12:31.631Z]: {"write":1}
+INFO [2023-11-17T16:12:31.830Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:12:31.830Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:12:31.831Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:12:31.831Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:12:31.835Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:12:31.839Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:12:31.940Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:12:31.941Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:12:31.942Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:12:31.942Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:12:31.958Z]: project_reinitialize_success
+INFO [2023-11-17T16:12:31.959Z]: {}
+INFO [2023-11-17T16:12:48.282Z]: project_reinitialize_start
+INFO [2023-11-17T16:12:48.283Z]: {}
+INFO [2023-11-17T16:12:48.635Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-17T16:12:48.636Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-17T16:12:48.636Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:12:48.651Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-17T16:12:48.652Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:48.652Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:48.747Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-17T16:12:48.748Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:12:49.129Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:49.129Z]: {"language":"JavaScript","percent":100,"file":"1\\public\\javascripts\\GuPSpiel.js"}
+INFO [2023-11-17T16:12:49.130Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-17T16:12:49.130Z]: {"language":"JavaScript","percent":100}
+INFO [2023-11-17T16:12:49.130Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-17T16:12:49.130Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:49.130Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-17T16:12:49.391Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-17T16:12:49.392Z]: {"length":1}
+INFO [2023-11-17T16:12:49.393Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-17T16:12:49.393Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-17T16:12:49.393Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-17T16:12:49.398Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-17T16:12:49.398Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-17T16:12:49.398Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-17T16:12:49.398Z]: {"language":"JavaScript"}
+INFO [2023-11-17T16:12:49.446Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-17T16:12:49.447Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-17T16:12:49.447Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-17T16:12:49.447Z]: {"added":1,"deleted":1}
+INFO [2023-11-17T16:12:49.447Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-17T16:12:49.447Z]: {"embeddingsToDelete":1}
+INFO [2023-11-17T16:12:49.448Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-17T16:12:49.448Z]: {"write":1}
+INFO [2023-11-17T16:12:49.688Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-17T16:12:49.688Z]: {"resuts":1,"delete":1}
+INFO [2023-11-17T16:12:49.688Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-17T16:12:49.688Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-17T16:12:49.693Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-17T16:12:49.698Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-17T16:12:49.800Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-17T16:12:49.801Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-17T16:12:49.802Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-17T16:12:49.802Z]: {"adding":0,"deleting":0}
+INFO [2023-11-17T16:12:49.811Z]: project_reinitialize_success
+INFO [2023-11-17T16:12:49.812Z]: {}
