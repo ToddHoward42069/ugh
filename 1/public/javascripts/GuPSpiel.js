@@ -37,7 +37,7 @@ let makeScene = function () {
   } else if (sceneCode == "#13" || sceneCode == "#23" || sceneCode == "#33") {
     sceneCode = "#"
     makeScene()
-  } else if (sceneCode == "b2" || sceneCode == "b3" || sceneCode == "b11") {
+  } else if (sceneCode == "delta") {
     loreOut.innerHTML = "Blöde Idee. Jetzt bist du tot :(    Schade"
     choice1.innerHTML = "Aufgeben"
     choice2.innerHTML = "Aufgeben"
@@ -75,6 +75,7 @@ let makeScene = function () {
     choice1.innerHTML = "Verteidige dich"
     choice2.innerHTML = "Fliehe"
     choice3.innerHTML = "Versuche zu verhandeln"
+    sceneCode = "delta"
   } else if (sceneCode == "b111") {
     loreOut.innerHTML = "Ein Kampf bricht aus, du gewinnst und kannst fliehen."
     choice1.innerHTML = "Verstecke dich"
