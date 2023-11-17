@@ -197,6 +197,8 @@ let makeScene = function () {
     choice2.innerHTML = "Finde eine Möglichkeit zur Wiedergutmachung"
     choice3.innerHTML = "..."
     sceneCode = "##"
+  } else if (sceneCode == "b2" || sceneCode = "b3") {
+  
   } else {
     sceneCode = "#"
     makeScene()
