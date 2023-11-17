@@ -270,8 +270,7 @@ let makeScene = function () {
   case "b13123":
     sceneCode = "delta"
     break;
-  // ... bestehender Code ...
-
+  
   case "c":
     loreOut.innerHTML = "Du bist ein Österreicher in einem gerade annektierten Dorf und triffst auf einen deutschen Soldaten.";
     choice1.innerHTML = "Beschwere dich über die Annexion";
@@ -323,6 +322,161 @@ let makeScene = function () {
   case "c112":
   case "c113":
     sceneCode = "##1";
+    makeScene();
+    break;
+  
+  case "d":
+    loreOut.innerHTML = "Du bist ein normaler deutscher Bürger und triffst beim Spazierengehen auf einen Mann.";
+    choice1.innerHTML = "Sprich über die Invasion Polens";
+    choice2.innerHTML = "Frage ihn nach dem Nichtangriffspakt";
+    choice3.innerHTML = "Gehe einfach weiter";
+    break;
+  case "d1":
+    loreOut.innerHTML = "Der Mann erzählt von Gerüchten, dass die Invasion bereits im Nichtangriffspakt geplant wurde.";
+    choice1.innerHTML = "Frage ihn nach mehr Details";
+    choice2.innerHTML = "Zeige Skepsis gegenüber den Gerüchten";
+    choice3.innerHTML = "Beende das Gespräch";
+    break;
+  case "d11":
+    loreOut.innerHTML = "Er teilt weitere Gerüchte und Spekulationen, aber nichts Konkretes.";
+    choice1.innerHTML = "Danke ihm für das Gespräch";
+    choice2.innerHTML = "Zeige weiterhin Skepsis";
+    choice3.innerHTML = "Beende das Gespräch";
+    break;
+  case "d12":
+    loreOut.innerHTML = "Er verteidigt seine Ansichten, aber bietet keine weiteren Beweise an.";
+    choice1.innerHTML = "Frage ihn nach mehr Details";
+    choice2.innerHTML = "Danke ihm für das Gespräch";
+    choice3.innerHTML = "Beende das Gespräch";
+    break;
+  case "d13":
+    sceneCode = "##1";
+    makeScene();
+    break;
+  case "d2":
+    loreOut.innerHTML = "Er spricht über den Nichtangriffspakt und die damit verbundenen Gerüchte.";
+    choice1.innerHTML = "Frage ihn nach der Invasion Polens";
+    choice2.innerHTML = "Zeige Skepsis gegenüber den Gerüchten";
+    choice3.innerHTML = "Beende das Gespräch";
+    break;
+  case "d21":
+  case "d22":
+    sceneCode = "d1";
+    makeScene();
+    break;
+  case "d23":
+    sceneCode = "##1";
+    makeScene();
+    break;
+  case "d111":
+  case "d112":
+  case "d113":
+  case "d121":
+  case "d122":
+  case "d123":
+    sceneCode = "##1";
+    makeScene();
+    break;
+ 
+  case "e":
+    loreOut.innerHTML = "Du bist ein deutscher Bürger und sprichst mit einer Jüdin, die du die letzten zwei Jahre in deinem Haus versteckt hast.";
+    choice1.innerHTML = "Erinnere dich an die Durchsuchung durch die Gestapo";
+    choice2.innerHTML = "Verabschiede dich von ihr";
+    choice3.innerHTML = "Frage sie nach ihren Zukunftsplänen";
+    break;
+  case "e1":
+    loreOut.innerHTML = "Du erinnerst dich an die Durchsuchung durch die Gestapo und wie du es geschafft hast, die Jüdin zu verstecken.";
+    choice1.innerHTML = "Teile deine Erinnerungen mit ihr";
+    choice2.innerHTML = "Verabschiede dich von ihr";
+    choice3.innerHTML = "Frage sie nach ihren Zukunftsplänen";
+    break;
+  case "e11":
+    loreOut.innerHTML = "Ihr teilt eure Erinnerungen und Gefühle über die vergangenen Jahre.";
+    choice1.innerHTML = "Verabschiede dich von ihr";
+    choice2.innerHTML = "Frage sie nach ihren Zukunftsplänen";
+    choice3.innerHTML = "Bleibe still und denke nach";
+    break;
+  case "e12":
+  case "e13":
+    sceneCode = "e2";
+    makeScene();
+    break;
+  case "e2":
+    loreOut.innerHTML = "Nachdem du dich von ihr verabschiedet hast, triffst du einen schwer kriegsgeschädigten Soldaten, der glücklich über das Ende des Krieges ist.";
+    choice1.innerHTML = "Frage ihn nach seinen Erlebnissen im Krieg";
+    choice2.innerHTML = "Zeige Mitgefühl für seine Verluste";
+    choice3.innerHTML = "Verabschiede dich und gehe weiter";
+    break;
+  case "e21":
+    loreOut.innerHTML = "Der Soldat erzählt dir von einigen Schlachten, unter anderem den Kämpfen in Westeuropa, der Operation Barbarossa und der Schlacht um Stalingrad, in der er seinen Arm und sein Auge verloren hat.";
+    choice1.innerHTML = "Frage ihn nach seinen Gefühlen zu diesen Erlebnissen";
+    choice2.innerHTML = "Zeige Mitgefühl für seine Verluste";
+    choice3.innerHTML = "Verabschiede dich und gehe weiter";
+    break;
+  case "e211":
+    loreOut.innerHTML = "Er teilt seine Gefühle und Gedanken über den Krieg und seine Erlebnisse.";
+    choice1.innerHTML = "Danke ihm für das Gespräch";
+    choice2.innerHTML = "Zeige Mitgefühl für seine Verluste";
+    choice3.innerHTML = "Verabschiede dich und gehe weiter";
+    break;
+  case "e212":
+  case "e213":
+    sceneCode = "##1";
+    makeScene();
+    break;
+  case "e22":
+    loreOut.innerHTML = "Du zeigst Mitgefühl für seine Verluste und er dankt dir für deine Freundlichkeit.";
+    choice1.innerHTML = "Frage ihn nach seinen Erlebnissen im Krieg";
+    choice2.innerHTML = "Danke ihm für das Gespräch";
+    choice3.innerHTML = "Verabschiede dich und gehe weiter";
+    break;
+  case "e221":
+  case "e222":
+  case "e223":
+    sceneCode = "##1";
+    makeScene();
+    break;
+  case "e23":
+    sceneCode = "##1";
+    makeScene();
+    break;
+  case "e111":
+  case "e112":
+  case "e113":
+  case "e121":
+  case "e122":
+  case "e123":
+    sceneCode = "##1";
+    makeScene();
+    break;
+ 
+  case "f":
+    loreOut.innerHTML = "Als junge Japanerin gehst du mit einem älteren Herren spazieren und unterhältst dich über den Angriff auf Pearl Harbor, als du einen Bomber der USA siehst.";
+    choice1.innerHTML = "Höre auf den Rat des älteren Herrn und verstecke dich";
+    choice2.innerHTML = "Ignoriere den Rat und bleibe stehen";
+    choice3.innerHTML = "Laufe weg";
+    break;
+  case "f1":
+    loreOut.innerHTML = "Du versteckst dich in einem nahen Haus. Wo genau möchtest du dich verstecken?";
+    choice1.innerHTML = "Im Keller";
+    choice2.innerHTML = "Im Erdgeschoss";
+    choice3.innerHTML = "Im Obergeschoss";
+    break;
+  case "f11":
+  case "f12":
+    loreOut.innerHTML = "Du versteckst dich, aber die Atombombe explodiert und du stirbst sofort.";
+    sceneCode = "delta";
+    makeScene();
+    break;
+  case "f13":
+    loreOut.innerHTML = "Du versteckst dich im Obergeschoss. Die Atombombe explodiert, aber du überlebst zunächst. Einige Zeit später stirbst du jedoch an zu hoher Radioaktivität.";
+    sceneCode = "delta";
+    makeScene();
+    break;
+  case "f2":
+  case "f3":
+    loreOut.innerHTML = "Du ignorierst den Rat des älteren Herrn oder versuchst wegzulaufen, aber die Atombombe explodiert und du stirbst sofort.";
+    sceneCode = "delta";
     makeScene();
     break;
   default:
