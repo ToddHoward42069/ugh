@@ -96,7 +96,7 @@ let makeScene = function () {
     choice1.innerHTML = "Ergib dich"
     choice2.innerHTML = "Versuche es erneut"
     choice3.innerHTML = "..."
-    sceneCode == "delta"
+    sceneCode = "delta"
   } else if (sceneCode == "b13") {
     loreOut.innerHTML = "Soldat: Dafür muss sie sterben! Ich lasse dich ihren Weg in die Hölle wählen."
     choice1.innerHTML = "Hängen"
