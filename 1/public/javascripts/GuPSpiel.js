@@ -112,6 +112,7 @@ let makeScene = function () {
     choice1.innerHTML = "..."
     choice2.innerHTML = "..."
     choice3.innerHTML = "..."
+    sceneCode = "##"
    } else if (sceneCode == "b1312") {
     loreOut.innerHTML = "Du zögerst und überdenkst die Entscheidung."
     choice1.innerHTML = "Bleibe standhaft"
@@ -122,6 +123,7 @@ let makeScene = function () {
     choice1.innerHTML = "Fühle Reue"
     choice2.innerHTML = "Akzeptiere die Entscheidung"
     choice3.innerHTML = "..."
+    sceneCode = "##"
    } else if (sceneCode == "b13122") {
     loreOut.innerHTML = "Du änderst deine Meinung und entscheidest dich, sie zu befreien."
     choice1.innerHTML = "Begleite sie zur Flucht"
@@ -137,6 +139,7 @@ let makeScene = function () {
     choice1.innerHTML = "..."
     choice2.innerHTML = "..."
     choice3.innerHTML = "..."
+    sceneCode = "##"
    } else if (sceneCode == "b1322") {
     loreOut.innerHTML = "Du zweifelst an deiner Entscheidung und zögerst."
     choice1.innerHTML = "Halte an deiner Entscheidung fest"
@@ -147,11 +150,13 @@ let makeScene = function () {
     choice1.innerHTML = "Empfinde Reue"
     choice2.innerHTML = "Akzeptiere die Konsequenzen"
     choice3.innerHTML = "..."
+    sceneCode = "##"
    } else if (sceneCode == "b13222") {
     loreOut.innerHTML = "Du änderst deine Meinung und entscheidest dich, sie freizulassen."
     choice1.innerHTML = "Helfe ihr bei der Flucht"
     choice2.innerHTML = "Bereue deine Entscheidung"
     choice3.innerHTML = "..."
+    sceneCode = "delta"
    } else if (sceneCode == "b133") {
     loreOut.innerHTML = "Du entscheidest dich dafür, sie zu foltern, bis zum Tod."
     choice1.innerHTML = "Führe die grausame Tat aus"
@@ -162,6 +167,7 @@ let makeScene = function () {
     choice1.innerHTML = "..."
     choice2.innerHTML = "..."
     choice3.innerHTML = "..."
+    sceneCode = "##"
    } else if (sceneCode == "b1332") {
     loreOut.innerHTML = "Du empfindest Schuldgefühle und zögerst."
     choice1.innerHTML = "Setze die Folter fort"
@@ -172,12 +178,13 @@ let makeScene = function () {
     choice1.innerHTML = "Fühle Reue"
     choice2.innerHTML = "Akzeptiere die Konsequenzen"
     choice3.innerHTML = "..."
+    sceneCode = "##"
    } else if (sceneCode == "b13322") {
     loreOut.innerHTML = "Du beendest die Folter und empfindest tiefe Schuldgefühle."
     choice1.innerHTML = "Bereue die Entscheidung"
     choice2.innerHTML = "Finde eine Möglichkeit zur Wiedergutmachung"
     choice3.innerHTML = "..."
-    sceneCode = "##"
+    sceneCode = "delta"
   } else if (sceneCode == "b2" || sceneCode == "b3" || sceneCode == "b123" || sceneCode == "b122") {
     sceneCode = "delta"
   } else {
