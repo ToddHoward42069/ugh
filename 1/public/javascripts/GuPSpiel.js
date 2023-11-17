@@ -185,7 +185,7 @@ let makeScene = function () {
     choice2.innerHTML = "Finde eine Möglichkeit zur Wiedergutmachung"
     choice3.innerHTML = "..."
     sceneCode = "delta"
-  } else if (sceneCode == "b2" || sceneCode == "b3" || sceneCode == "b123" || sceneCode == "b122") {
+  } else if (sceneCode == "b2" || sceneCode == "b3" || sceneCode == "b123" || sceneCode == "b122" || sceneCode == "b1313" || sceneCode == "b13223") {
     sceneCode = "delta"
   } else {
     sceneCode = "#"
