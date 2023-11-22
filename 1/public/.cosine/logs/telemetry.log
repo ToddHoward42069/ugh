@@ -1,0 +1,178 @@
+
+INFO [2023-11-17T11:22:17.866Z]: Preparing to initialize extension
+INFO [2023-11-17T11:22:18.871Z]: Registering flag observer
+INFO [2023-11-17T11:22:18.872Z]: Navigating to loading page
+INFO [2023-11-17T11:22:18.872Z]: Navigation
+INFO [2023-11-17T11:22:18.872Z]: {"page":"/loading"}
+INFO [2023-11-17T11:22:18.872Z]: Initializing workspace controller
+INFO [2023-11-17T11:22:18.874Z]: Creating URI handler
+INFO [2023-11-17T11:22:18.874Z]: Getting auth service props
+INFO [2023-11-17T11:22:18.876Z]: Creating auth service
+INFO [2023-11-17T11:22:18.876Z]: Setting network auth service
+INFO [2023-11-17T11:22:18.876Z]: Creating context store
+INFO [2023-11-17T11:22:18.876Z]: Creating engine
+INFO [2023-11-17T11:22:18.876Z]: Creating sql db
+INFO [2023-11-17T11:22:18.991Z]: Creating vector db
+INFO [2023-11-17T11:22:18.992Z]: Creating config manager
+INFO [2023-11-17T11:22:18.993Z]: Get languages
+INFO [2023-11-17T11:22:18.994Z]: Reading ALL files
+INFO [2023-11-17T11:22:18.995Z]: Get Overview
+INFO [2023-11-17T11:22:18.996Z]: Creating code parser
+INFO [2023-11-17T11:22:18.996Z]: Creating code index
+INFO [2023-11-17T11:22:18.997Z]: Creating graphs
+INFO [2023-11-17T11:22:18.997Z]: Creating tagger
+INFO [2023-11-17T11:22:18.997Z]: Creating semantic
+INFO [2023-11-17T11:22:18.997Z]: Creating keyword
+INFO [2023-11-17T11:22:18.997Z]: Creating file search
+INFO [2023-11-17T11:22:18.997Z]: Initializing engine
+INFO [2023-11-17T11:22:19.209Z]: [CodeTagger.init] Initializing
+INFO [2023-11-17T11:22:19.211Z]: Initializing history service
+INFO [2023-11-17T11:22:19.211Z]: Creating project bot props
+INFO [2023-11-17T11:22:19.211Z]: Creating plan service
+INFO [2023-11-17T11:22:19.211Z]: Creating terms service
+INFO [2023-11-17T11:22:19.211Z]: Creating auth controller
+INFO [2023-11-17T11:22:19.211Z]: Initializing auth controller
+INFO [2023-11-17T11:22:19.212Z]: Checking auth
+INFO [2023-11-17T11:22:19.214Z]: Creating plan controller
+INFO [2023-11-17T11:22:19.214Z]: Initializing plan controller
+INFO [2023-11-17T11:22:19.658Z]: Creating status controller
+INFO [2023-11-17T11:22:19.659Z]: Creating chat bot
+INFO [2023-11-17T11:22:19.660Z]: Creating git service
+INFO [2023-11-17T11:22:19.661Z]: Creating user context
+INFO [2023-11-17T11:22:19.661Z]: Creating search controller
+INFO [2023-11-17T11:22:19.661Z]: Initializing search controller
+INFO [2023-11-17T11:22:19.667Z]: Creating index controller
+INFO [2023-11-17T11:22:19.667Z]: Initializing index controller
+INFO [2023-11-17T11:22:19.667Z]: Creating migrate controller
+INFO [2023-11-17T11:22:19.667Z]: Initializing migrate controller
+INFO [2023-11-17T11:22:19.668Z]: Creating settings controller
+INFO [2023-11-17T11:22:19.668Z]: Initializing settings controller
+INFO [2023-11-17T11:22:19.668Z]: Creating navigation controller
+INFO [2023-11-17T11:22:19.669Z]: Initializing navigation controller
+INFO [2023-11-17T11:22:19.669Z]: Registering auth service with auth controller
+INFO [2023-11-17T11:22:19.669Z]: Calculating navigation
+INFO [2023-11-17T11:22:19.680Z]: Navigation
+INFO [2023-11-17T11:22:19.680Z]: {"page":"/auth/login"}
+INFO [2023-11-17T11:22:19.680Z]: Fully initialized!
+INFO [2023-11-17T11:22:19.684Z]: extension_initialized
+INFO [2023-11-17T11:22:19.684Z]: {"timeToInit":1815}
+INFO [2023-11-17T11:22:32.710Z]: Network Error: /auth/github/login
+INFO [2023-11-17T11:22:32.710Z]: {"url":"/auth/github/login","attempts":0}
+ERROR [2023-11-17T11:22:32.717Z]: {"statusCode":409,"message":"Account already linked with Google","error":"Conflict"}
+INFO [2023-11-17T11:24:19.190Z]: Preparing to initialize extension
+INFO [2023-11-17T11:24:22.103Z]: Registering flag observer
+INFO [2023-11-17T11:24:22.103Z]: Navigating to loading page
+INFO [2023-11-17T11:24:22.103Z]: Navigation
+INFO [2023-11-17T11:24:22.103Z]: {"page":"/loading"}
+INFO [2023-11-17T11:24:22.103Z]: Initializing workspace controller
+INFO [2023-11-17T11:24:22.790Z]: Creating URI handler
+INFO [2023-11-17T11:24:22.790Z]: Getting auth service props
+INFO [2023-11-17T11:24:22.793Z]: Creating auth service
+INFO [2023-11-17T11:24:22.793Z]: Setting network auth service
+INFO [2023-11-17T11:24:22.793Z]: Creating context store
+INFO [2023-11-17T11:24:22.793Z]: Creating engine
+INFO [2023-11-17T11:24:22.793Z]: Creating sql db
+INFO [2023-11-17T11:24:28.163Z]: Creating vector db
+INFO [2023-11-17T11:24:28.164Z]: Creating config manager
+INFO [2023-11-17T11:24:28.179Z]: Get languages
+INFO [2023-11-17T11:24:28.179Z]: Reading ALL files
+INFO [2023-11-17T11:24:28.218Z]: Get Overview
+INFO [2023-11-17T11:24:28.218Z]: Creating code parser
+INFO [2023-11-17T11:24:28.218Z]: Creating code index
+INFO [2023-11-17T11:24:28.218Z]: Creating graphs
+INFO [2023-11-17T11:24:28.218Z]: Creating tagger
+INFO [2023-11-17T11:24:28.218Z]: Creating semantic
+INFO [2023-11-17T11:24:28.219Z]: Creating keyword
+INFO [2023-11-17T11:24:28.219Z]: Creating file search
+INFO [2023-11-17T11:24:28.219Z]: Initializing engine
+INFO [2023-11-17T11:24:28.363Z]: [CodeTagger.init] Initializing
+INFO [2023-11-17T11:24:28.627Z]: Initializing history service
+INFO [2023-11-17T11:24:28.627Z]: Creating project bot props
+INFO [2023-11-17T11:24:28.627Z]: Creating plan service
+INFO [2023-11-17T11:24:28.627Z]: Creating terms service
+INFO [2023-11-17T11:24:28.627Z]: Creating auth controller
+INFO [2023-11-17T11:24:28.627Z]: Initializing auth controller
+INFO [2023-11-17T11:24:28.629Z]: Checking auth
+INFO [2023-11-17T11:24:28.665Z]: Creating plan controller
+INFO [2023-11-17T11:24:28.666Z]: Initializing plan controller
+INFO [2023-11-17T11:24:29.451Z]: Creating status controller
+INFO [2023-11-17T11:24:29.451Z]: Creating chat bot
+INFO [2023-11-17T11:24:29.452Z]: Creating git service
+INFO [2023-11-17T11:24:29.452Z]: Creating user context
+INFO [2023-11-17T11:24:29.452Z]: Creating search controller
+INFO [2023-11-17T11:24:29.452Z]: Initializing search controller
+INFO [2023-11-17T11:24:29.460Z]: Creating index controller
+INFO [2023-11-17T11:24:29.460Z]: Initializing index controller
+INFO [2023-11-17T11:24:29.460Z]: Creating migrate controller
+INFO [2023-11-17T11:24:29.460Z]: Initializing migrate controller
+INFO [2023-11-17T11:24:29.460Z]: Creating settings controller
+INFO [2023-11-17T11:24:29.460Z]: Initializing settings controller
+INFO [2023-11-17T11:24:29.461Z]: Creating navigation controller
+INFO [2023-11-17T11:24:29.461Z]: Initializing navigation controller
+INFO [2023-11-17T11:24:29.461Z]: Registering auth service with auth controller
+INFO [2023-11-17T11:24:29.461Z]: Calculating navigation
+INFO [2023-11-17T11:24:30.363Z]: Navigation
+INFO [2023-11-17T11:24:30.363Z]: {"page":"/auth/login"}
+INFO [2023-11-17T11:24:30.364Z]: Fully initialized!
+INFO [2023-11-17T11:24:30.367Z]: extension_initialized
+INFO [2023-11-17T11:24:30.367Z]: {"timeToInit":11175}
+INFO [2023-11-17T11:25:37.072Z]: Network Error: /auth/email/register
+INFO [2023-11-17T11:25:37.072Z]: {"url":"/auth/email/register","attempts":0}
+ERROR [2023-11-17T11:25:37.077Z]: {"statusCode":409,"message":"Email already in use by another account","error":"Conflict"}
+INFO [2023-11-20T19:29:25.237Z]: Preparing to initialize extension
+INFO [2023-11-20T19:29:26.249Z]: Registering flag observer
+INFO [2023-11-20T19:29:26.250Z]: Navigating to loading page
+INFO [2023-11-20T19:29:26.250Z]: Navigation
+INFO [2023-11-20T19:29:26.250Z]: {"page":"/loading"}
+INFO [2023-11-20T19:29:26.250Z]: Initializing workspace controller
+INFO [2023-11-20T19:29:26.252Z]: Creating URI handler
+INFO [2023-11-20T19:29:26.252Z]: Getting auth service props
+INFO [2023-11-20T19:29:26.254Z]: Creating auth service
+INFO [2023-11-20T19:29:26.254Z]: Setting network auth service
+INFO [2023-11-20T19:29:26.254Z]: Creating context store
+INFO [2023-11-20T19:29:26.254Z]: Creating engine
+INFO [2023-11-20T19:29:26.254Z]: Creating sql db
+INFO [2023-11-20T19:29:26.333Z]: Creating vector db
+INFO [2023-11-20T19:29:26.333Z]: Creating config manager
+INFO [2023-11-20T19:29:26.335Z]: Get languages
+INFO [2023-11-20T19:29:26.335Z]: Reading ALL files
+INFO [2023-11-20T19:29:26.337Z]: Get Overview
+INFO [2023-11-20T19:29:26.338Z]: Creating code parser
+INFO [2023-11-20T19:29:26.338Z]: Creating code index
+INFO [2023-11-20T19:29:26.339Z]: Creating graphs
+INFO [2023-11-20T19:29:26.339Z]: Creating tagger
+INFO [2023-11-20T19:29:26.339Z]: Creating semantic
+INFO [2023-11-20T19:29:26.339Z]: Creating keyword
+INFO [2023-11-20T19:29:26.339Z]: Creating file search
+INFO [2023-11-20T19:29:26.339Z]: Initializing engine
+INFO [2023-11-20T19:29:26.517Z]: [CodeTagger.init] Initializing
+INFO [2023-11-20T19:29:26.518Z]: Initializing history service
+INFO [2023-11-20T19:29:26.518Z]: Creating project bot props
+INFO [2023-11-20T19:29:26.518Z]: Creating plan service
+INFO [2023-11-20T19:29:26.518Z]: Creating terms service
+INFO [2023-11-20T19:29:26.518Z]: Creating auth controller
+INFO [2023-11-20T19:29:26.518Z]: Initializing auth controller
+INFO [2023-11-20T19:29:26.519Z]: Checking auth
+INFO [2023-11-20T19:29:26.521Z]: Creating plan controller
+INFO [2023-11-20T19:29:26.521Z]: Initializing plan controller
+INFO [2023-11-20T19:29:26.985Z]: Creating status controller
+INFO [2023-11-20T19:29:26.985Z]: Creating chat bot
+INFO [2023-11-20T19:29:26.986Z]: Creating git service
+INFO [2023-11-20T19:29:26.986Z]: Creating user context
+INFO [2023-11-20T19:29:26.987Z]: Creating search controller
+INFO [2023-11-20T19:29:26.987Z]: Initializing search controller
+INFO [2023-11-20T19:29:26.992Z]: Creating index controller
+INFO [2023-11-20T19:29:26.993Z]: Initializing index controller
+INFO [2023-11-20T19:29:26.993Z]: Creating migrate controller
+INFO [2023-11-20T19:29:26.993Z]: Initializing migrate controller
+INFO [2023-11-20T19:29:26.993Z]: Creating settings controller
+INFO [2023-11-20T19:29:26.993Z]: Initializing settings controller
+INFO [2023-11-20T19:29:26.993Z]: Creating navigation controller
+INFO [2023-11-20T19:29:26.993Z]: Initializing navigation controller
+INFO [2023-11-20T19:29:26.993Z]: Registering auth service with auth controller
+INFO [2023-11-20T19:29:26.994Z]: Calculating navigation
+INFO [2023-11-20T19:29:27.017Z]: Navigation
+INFO [2023-11-20T19:29:27.017Z]: {"page":"/auth/login"}
+INFO [2023-11-20T19:29:27.017Z]: Fully initialized!
+INFO [2023-11-20T19:29:27.021Z]: extension_initialized
+INFO [2023-11-20T19:29:27.021Z]: {"timeToInit":1781}
