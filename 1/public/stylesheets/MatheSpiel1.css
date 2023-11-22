@@ -236,15 +236,6 @@ button {
     background-color: red;
 }
 
-#settings-menu a.selected {
-    background-color: #4CAF50; /* Change this to the desired color */
-}
-
-.difficulty-btn:active,
-.difficulty-btn.selected {
-    background-color: #4CAF50; /* Change this to the desired color */
-}
-
 @media (max-width: 36rem) {
     #settings-btn {
         transform: translate(6.5rem, -22.5rem);

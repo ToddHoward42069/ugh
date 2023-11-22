@@ -1073,3 +1073,31 @@ INFO [2023-11-22T18:43:42.229Z]: question_start
 INFO [2023-11-22T18:43:42.230Z]: {"prompt":"Well, now the incremental difficulty is highlighted, but I want it to highlight the current applied difficulty","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
 INFO [2023-11-22T18:43:42.370Z]: question_failure
 INFO [2023-11-22T18:43:42.371Z]: {"prompt":"Well, now the incremental difficulty is highlighted, but I want it to highlight the current applied difficulty","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:30.450Z]: project_reinitialize_start
+INFO [2023-11-22T18:45:30.450Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:30.534Z]: project_reinitialize_start
+INFO [2023-11-22T18:45:30.534Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:31.314Z]: project_reinitialize_start
+INFO [2023-11-22T18:45:31.315Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:32.281Z]: project_reinitialize_success
+INFO [2023-11-22T18:45:32.282Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:33.616Z]: project_reinitialize_success
+INFO [2023-11-22T18:45:33.617Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:34.285Z]: project_reinitialize_success
+INFO [2023-11-22T18:45:34.285Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:45.876Z]: project_reinitialize_start
+INFO [2023-11-22T18:45:45.876Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:46.330Z]: project_reinitialize_start
+INFO [2023-11-22T18:45:46.331Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:46.916Z]: project_reinitialize_start
+INFO [2023-11-22T18:45:46.917Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:47.259Z]: project_reinitialize_success
+INFO [2023-11-22T18:45:47.259Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:48.604Z]: project_reinitialize_success
+INFO [2023-11-22T18:45:48.605Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:49.314Z]: project_reinitialize_success
+INFO [2023-11-22T18:45:49.314Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:50.051Z]: project_reinitialize_start
+INFO [2023-11-22T18:45:50.052Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-11-22T18:45:50.762Z]: project_reinitialize_success
+INFO [2023-11-22T18:45:50.762Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
