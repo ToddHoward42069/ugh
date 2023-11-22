@@ -1,155 +1,3 @@
-
-INFO [2023-11-17T13:07:40.669Z]: Preparing to initialize extension
-INFO [2023-11-17T13:07:52.631Z]: Registering flag observer
-INFO [2023-11-17T13:07:52.631Z]: Navigating to loading page
-INFO [2023-11-17T13:07:52.631Z]: Navigation
-INFO [2023-11-17T13:07:52.631Z]: {"page":"/loading"}
-INFO [2023-11-17T13:07:52.632Z]: Initializing workspace controller
-INFO [2023-11-17T13:07:55.665Z]: Creating URI handler
-INFO [2023-11-17T13:07:55.665Z]: Getting auth service props
-INFO [2023-11-17T13:07:55.669Z]: Creating auth service
-INFO [2023-11-17T13:07:55.669Z]: Setting network auth service
-INFO [2023-11-17T13:07:55.669Z]: Creating context store
-INFO [2023-11-17T13:07:55.669Z]: Creating engine
-INFO [2023-11-17T13:07:55.669Z]: Creating sql db
-ERROR [2023-11-17T13:08:06.959Z]: Failed to initialize plugin in 15 seconds
-ERROR [2023-11-17T13:08:06.961Z]: {"numberOfFiles":29}
-INFO [2023-11-17T13:08:13.939Z]: Creating vector db
-INFO [2023-11-17T13:08:13.940Z]: Creating config manager
-INFO [2023-11-17T13:08:16.203Z]: Get languages
-INFO [2023-11-17T13:08:16.204Z]: Reading ALL files
-INFO [2023-11-17T13:08:17.128Z]: Get Overview
-INFO [2023-11-17T13:08:17.128Z]: Creating code parser
-INFO [2023-11-17T13:08:17.129Z]: Creating code index
-INFO [2023-11-17T13:08:17.132Z]: Creating graphs
-INFO [2023-11-17T13:08:17.132Z]: Creating tagger
-INFO [2023-11-17T13:08:17.132Z]: Creating semantic
-INFO [2023-11-17T13:08:17.132Z]: Creating keyword
-INFO [2023-11-17T13:08:17.133Z]: Creating file search
-INFO [2023-11-17T13:08:17.133Z]: Initializing engine
-INFO [2023-11-17T13:08:22.578Z]: [CodeTagger.init] Initializing
-INFO [2023-11-17T13:08:22.766Z]: Initializing history service
-INFO [2023-11-17T13:08:22.769Z]: Creating project bot props
-INFO [2023-11-17T13:08:22.769Z]: Creating plan service
-INFO [2023-11-17T13:08:22.769Z]: Creating terms service
-INFO [2023-11-17T13:08:22.769Z]: Creating auth controller
-INFO [2023-11-17T13:08:22.769Z]: Initializing auth controller
-INFO [2023-11-17T13:08:22.778Z]: Checking auth
-INFO [2023-11-17T13:08:24.918Z]: Set User: 2AI2X7dmk1ZGODgXjuGnNWZ0uKA2
-INFO [2023-11-17T13:08:24.980Z]: Creating plan controller
-INFO [2023-11-17T13:08:24.980Z]: Initializing plan controller
-INFO [2023-11-17T13:08:26.275Z]: Creating status controller
-INFO [2023-11-17T13:08:26.275Z]: Creating chat bot
-INFO [2023-11-17T13:08:26.277Z]: Creating git service
-INFO [2023-11-17T13:08:26.277Z]: Creating user context
-INFO [2023-11-17T13:08:26.277Z]: Creating search controller
-INFO [2023-11-17T13:08:26.278Z]: Initializing search controller
-INFO [2023-11-17T13:08:26.308Z]: Creating index controller
-INFO [2023-11-17T13:08:26.309Z]: Initializing index controller
-INFO [2023-11-17T13:08:26.309Z]: Creating migrate controller
-INFO [2023-11-17T13:08:26.309Z]: Initializing migrate controller
-INFO [2023-11-17T13:08:26.309Z]: Creating settings controller
-INFO [2023-11-17T13:08:26.310Z]: Initializing settings controller
-INFO [2023-11-17T13:08:26.310Z]: Creating navigation controller
-INFO [2023-11-17T13:08:26.310Z]: Initializing navigation controller
-INFO [2023-11-17T13:08:26.311Z]: Registering auth service with auth controller
-INFO [2023-11-17T13:08:26.311Z]: Calculating navigation
-INFO [2023-11-17T13:08:26.313Z]: Navigation
-INFO [2023-11-17T13:08:26.313Z]: {"page":"/disabled"}
-INFO [2023-11-17T13:08:26.317Z]: Fully initialized!
-INFO [2023-11-17T13:08:26.336Z]: extension_initialized
-INFO [2023-11-17T13:08:26.336Z]: {"timeToInit":45649}
-INFO [2023-11-17T15:48:03.471Z]: Preparing to initialize extension
-INFO [2023-11-17T15:48:04.476Z]: Registering flag observer
-INFO [2023-11-17T15:48:04.477Z]: Navigating to loading page
-INFO [2023-11-17T15:48:04.477Z]: Navigation
-INFO [2023-11-17T15:48:04.477Z]: {"page":"/loading"}
-INFO [2023-11-17T15:48:04.477Z]: Initializing workspace controller
-INFO [2023-11-17T15:48:04.479Z]: Creating URI handler
-INFO [2023-11-17T15:48:04.479Z]: Getting auth service props
-INFO [2023-11-17T15:48:04.480Z]: Creating auth service
-INFO [2023-11-17T15:48:04.481Z]: Setting network auth service
-INFO [2023-11-17T15:48:04.481Z]: Creating context store
-INFO [2023-11-17T15:48:04.481Z]: Creating engine
-INFO [2023-11-17T15:48:04.481Z]: Creating sql db
-INFO [2023-11-17T15:48:04.575Z]: Creating vector db
-INFO [2023-11-17T15:48:04.575Z]: Creating config manager
-INFO [2023-11-17T15:48:04.580Z]: Get languages
-INFO [2023-11-17T15:48:04.581Z]: Reading ALL files
-INFO [2023-11-17T15:48:04.583Z]: Get Overview
-INFO [2023-11-17T15:48:04.584Z]: Creating code parser
-INFO [2023-11-17T15:48:04.584Z]: Creating code index
-INFO [2023-11-17T15:48:04.585Z]: Creating graphs
-INFO [2023-11-17T15:48:04.585Z]: Creating tagger
-INFO [2023-11-17T15:48:04.586Z]: Creating semantic
-INFO [2023-11-17T15:48:04.586Z]: Creating keyword
-INFO [2023-11-17T15:48:04.586Z]: Creating file search
-INFO [2023-11-17T15:48:04.586Z]: Initializing engine
-INFO [2023-11-17T15:48:04.751Z]: [CodeTagger.init] Initializing
-INFO [2023-11-17T15:48:04.755Z]: Initializing history service
-INFO [2023-11-17T15:48:04.755Z]: Creating project bot props
-INFO [2023-11-17T15:48:04.755Z]: Creating plan service
-INFO [2023-11-17T15:48:04.755Z]: Creating terms service
-INFO [2023-11-17T15:48:04.755Z]: Creating auth controller
-INFO [2023-11-17T15:48:04.756Z]: Initializing auth controller
-INFO [2023-11-17T15:48:04.760Z]: Checking auth
-INFO [2023-11-17T15:48:05.715Z]: Set User: 2AI2X7dmk1ZGODgXjuGnNWZ0uKA2
-INFO [2023-11-17T15:48:05.726Z]: Creating plan controller
-INFO [2023-11-17T15:48:05.727Z]: Initializing plan controller
-INFO [2023-11-17T15:48:06.184Z]: Creating status controller
-INFO [2023-11-17T15:48:06.185Z]: Creating chat bot
-INFO [2023-11-17T15:48:06.186Z]: Creating git service
-INFO [2023-11-17T15:48:06.187Z]: Creating user context
-INFO [2023-11-17T15:48:06.187Z]: Creating search controller
-INFO [2023-11-17T15:48:06.188Z]: Initializing search controller
-INFO [2023-11-17T15:48:06.193Z]: Creating index controller
-INFO [2023-11-17T15:48:06.193Z]: Initializing index controller
-INFO [2023-11-17T15:48:06.194Z]: Creating migrate controller
-INFO [2023-11-17T15:48:06.194Z]: Initializing migrate controller
-INFO [2023-11-17T15:48:06.194Z]: Creating settings controller
-INFO [2023-11-17T15:48:06.194Z]: Initializing settings controller
-INFO [2023-11-17T15:48:06.194Z]: Creating navigation controller
-INFO [2023-11-17T15:48:06.194Z]: Initializing navigation controller
-INFO [2023-11-17T15:48:06.194Z]: Registering auth service with auth controller
-INFO [2023-11-17T15:48:06.194Z]: Calculating navigation
-INFO [2023-11-17T15:48:06.260Z]: Navigation
-INFO [2023-11-17T15:48:06.260Z]: {"page":"/initialize/project"}
-INFO [2023-11-17T15:48:06.261Z]: Fully initialized!
-INFO [2023-11-17T15:48:06.263Z]: extension_initialized
-INFO [2023-11-17T15:48:06.263Z]: {"timeToInit":2791}
-INFO [2023-11-17T15:48:06.313Z]: Reading ALL files
-INFO [2023-11-17T15:48:44.406Z]: Preparing to initialize extension
-INFO [2023-11-17T15:48:45.413Z]: Registering flag observer
-INFO [2023-11-17T15:48:45.413Z]: Navigating to loading page
-INFO [2023-11-17T15:48:45.413Z]: Navigation
-INFO [2023-11-17T15:48:45.413Z]: {"page":"/loading"}
-INFO [2023-11-17T15:48:45.413Z]: Initializing workspace controller
-INFO [2023-11-17T15:48:45.544Z]: Creating URI handler
-INFO [2023-11-17T15:48:45.544Z]: Getting auth service props
-INFO [2023-11-17T15:48:45.547Z]: Creating auth service
-INFO [2023-11-17T15:48:45.548Z]: Setting network auth service
-INFO [2023-11-17T15:48:45.548Z]: Creating context store
-INFO [2023-11-17T15:48:45.548Z]: Creating engine
-INFO [2023-11-17T15:48:45.548Z]: Creating sql db
-INFO [2023-11-17T15:48:52.868Z]: Creating vector db
-INFO [2023-11-17T15:48:52.876Z]: Creating config manager
-INFO [2023-11-17T15:48:53.007Z]: Get languages
-INFO [2023-11-17T15:48:53.007Z]: Reading ALL files
-INFO [2023-11-17T15:48:53.140Z]: Get Overview
-INFO [2023-11-17T15:48:53.141Z]: Creating code parser
-INFO [2023-11-17T15:48:53.141Z]: Creating code index
-INFO [2023-11-17T15:48:53.142Z]: Creating graphs
-INFO [2023-11-17T15:48:53.142Z]: Creating tagger
-INFO [2023-11-17T15:48:53.142Z]: Creating semantic
-INFO [2023-11-17T15:48:53.142Z]: Creating keyword
-INFO [2023-11-17T15:48:53.142Z]: Creating file search
-INFO [2023-11-17T15:48:53.143Z]: Initializing engine
-INFO [2023-11-17T15:48:53.810Z]: [CodeTagger.init] Initializing
-INFO [2023-11-17T15:48:53.857Z]: Initializing history service
-INFO [2023-11-17T15:48:53.857Z]: Creating project bot props
-INFO [2023-11-17T15:48:53.857Z]: Creating plan service
-INFO [2023-11-17T15:48:53.857Z]: Creating terms service
-INFO [2023-11-17T15:48:53.857Z]: Creating auth controller
 INFO [2023-11-17T15:48:53.858Z]: Initializing auth controller
 INFO [2023-11-17T15:48:53.860Z]: Checking auth
 INFO [2023-11-17T15:48:54.833Z]: Set User: 2AI2X7dmk1ZGODgXjuGnNWZ0uKA2
@@ -9402,3 +9250,751 @@ INFO [2023-11-22T18:45:50.745Z]: [KeywordCodeSearch.diffIndex] Diff computed
 INFO [2023-11-22T18:45:50.745Z]: {"adding":0,"deleting":0}
 INFO [2023-11-22T18:45:50.763Z]: project_reinitialize_success
 INFO [2023-11-22T18:45:50.765Z]: {}
+INFO [2023-11-22T18:50:10.173Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:10.178Z]: {}
+INFO [2023-11-22T18:50:10.306Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:10.309Z]: {}
+INFO [2023-11-22T18:50:10.414Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:10.419Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:10.419Z]: {"added":1,"deleted":1}
+INFO [2023-11-22T18:50:10.426Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:10.427Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:11.032Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:11.035Z]: {"length":1}
+INFO [2023-11-22T18:50:11.036Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:11.036Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:11.036Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:11.040Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:11.040Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:11.040Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:11.117Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:11.121Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:11.121Z]: {"added":1,"deleted":1}
+INFO [2023-11-22T18:50:11.121Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:11.121Z]: {"embeddingsToDelete":1}
+INFO [2023-11-22T18:50:11.122Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:11.122Z]: {"write":1}
+INFO [2023-11-22T18:50:11.504Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:11.507Z]: {"resuts":1,"delete":1}
+INFO [2023-11-22T18:50:11.508Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:11.508Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-22T18:50:11.556Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:11.571Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:11.639Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:11.641Z]: {}
+INFO [2023-11-22T18:50:11.806Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:11.814Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:11.818Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:11.818Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:11.899Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:11.903Z]: {}
+INFO [2023-11-22T18:50:12.376Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:12.383Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:12.383Z]: {"added":1,"deleted":1}
+INFO [2023-11-22T18:50:12.394Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:12.394Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:12.604Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:12.612Z]: {}
+INFO [2023-11-22T18:50:12.679Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:12.679Z]: {}
+INFO [2023-11-22T18:50:13.054Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:13.057Z]: {"length":1}
+INFO [2023-11-22T18:50:13.057Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:13.057Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:13.057Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:13.065Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:13.065Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:13.065Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:13.126Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:13.129Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:13.129Z]: {"added":1,"deleted":1}
+INFO [2023-11-22T18:50:13.129Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:13.129Z]: {"embeddingsToDelete":1}
+INFO [2023-11-22T18:50:13.129Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:13.129Z]: {"write":1}
+INFO [2023-11-22T18:50:13.643Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:13.651Z]: {"resuts":1,"delete":1}
+INFO [2023-11-22T18:50:13.652Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:13.652Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-22T18:50:13.776Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:14.029Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:14.511Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:14.514Z]: {}
+INFO [2023-11-22T18:50:14.545Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:14.545Z]: {}
+INFO [2023-11-22T18:50:14.592Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:14.594Z]: {}
+INFO [2023-11-22T18:50:14.603Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:14.603Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:14.604Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:14.604Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:14.615Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:14.615Z]: {}
+INFO [2023-11-22T18:50:14.901Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:14.905Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:14.905Z]: {"added":1,"deleted":2}
+INFO [2023-11-22T18:50:14.910Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:14.910Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:15.518Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:15.523Z]: {}
+INFO [2023-11-22T18:50:15.888Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:15.890Z]: {}
+INFO [2023-11-22T18:50:16.003Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:16.006Z]: {"length":1}
+INFO [2023-11-22T18:50:16.006Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:16.006Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:16.006Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:16.015Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:16.015Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:16.015Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:16.074Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:16.077Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:16.077Z]: {"added":1,"deleted":2}
+INFO [2023-11-22T18:50:16.077Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:16.077Z]: {"embeddingsToDelete":2}
+INFO [2023-11-22T18:50:16.077Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:16.077Z]: {"write":1}
+INFO [2023-11-22T18:50:16.459Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:16.462Z]: {"resuts":1,"delete":2}
+INFO [2023-11-22T18:50:16.463Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:16.463Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-22T18:50:16.475Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:16.490Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:16.671Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:16.674Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:16.676Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:16.676Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:16.686Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:16.686Z]: {}
+INFO [2023-11-22T18:50:17.098Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:17.104Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:17.104Z]: {"added":3,"deleted":2}
+INFO [2023-11-22T18:50:17.113Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:17.113Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:17.216Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:17.222Z]: {}
+INFO [2023-11-22T18:50:17.302Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:17.306Z]: {}
+INFO [2023-11-22T18:50:18.035Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:18.039Z]: {}
+INFO [2023-11-22T18:50:18.137Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:18.142Z]: {"length":3}
+INFO [2023-11-22T18:50:18.142Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:18.142Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:18.142Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:18.152Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:18.152Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:18.152Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:18.220Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:18.222Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:18.222Z]: {"added":3,"deleted":2}
+INFO [2023-11-22T18:50:18.222Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:18.222Z]: {"embeddingsToDelete":2}
+INFO [2023-11-22T18:50:18.223Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:18.223Z]: {"write":3}
+INFO [2023-11-22T18:50:18.456Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:18.459Z]: {"resuts":3,"delete":2}
+INFO [2023-11-22T18:50:18.459Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:18.459Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-22T18:50:18.466Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:18.475Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:18.621Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:18.624Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:18.625Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:18.625Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:18.648Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:18.651Z]: {}
+INFO [2023-11-22T18:50:18.915Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:18.917Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:18.917Z]: {"added":106,"deleted":50}
+INFO [2023-11-22T18:50:18.921Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:18.921Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:19.222Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:19.224Z]: {}
+INFO [2023-11-22T18:50:20.064Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:20.069Z]: {}
+INFO [2023-11-22T18:50:20.726Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:20.729Z]: {}
+INFO [2023-11-22T18:50:20.821Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:20.824Z]: {"length":106}
+INFO [2023-11-22T18:50:20.824Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:20.824Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:20.824Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:20.959Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:20.959Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:20.959Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:21.051Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:21.055Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:21.055Z]: {"added":106,"deleted":50}
+INFO [2023-11-22T18:50:21.055Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:21.055Z]: {"embeddingsToDelete":50}
+INFO [2023-11-22T18:50:21.056Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:21.056Z]: {"write":106}
+INFO [2023-11-22T18:50:21.307Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:21.310Z]: {"resuts":106,"delete":50}
+INFO [2023-11-22T18:50:21.310Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:21.310Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-22T18:50:21.317Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:21.322Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:21.466Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:21.469Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:21.471Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:21.471Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:21.482Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:21.482Z]: {}
+INFO [2023-11-22T18:50:22.216Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:22.222Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:22.222Z]: {"added":50,"deleted":106}
+INFO [2023-11-22T18:50:22.245Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:22.260Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:23.629Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:23.636Z]: {}
+INFO [2023-11-22T18:50:23.680Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:23.683Z]: {}
+INFO [2023-11-22T18:50:23.711Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:23.711Z]: {}
+INFO [2023-11-22T18:50:23.824Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:23.827Z]: {}
+INFO [2023-11-22T18:50:24.305Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:24.308Z]: {"length":50}
+INFO [2023-11-22T18:50:24.309Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:24.309Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:24.309Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:24.624Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:24.624Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:24.624Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:24.707Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:24.710Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:24.710Z]: {"added":50,"deleted":106}
+INFO [2023-11-22T18:50:24.710Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:24.710Z]: {"embeddingsToDelete":106}
+INFO [2023-11-22T18:50:24.713Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:24.713Z]: {"write":50}
+INFO [2023-11-22T18:50:24.991Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:24.994Z]: {"resuts":50,"delete":106}
+INFO [2023-11-22T18:50:24.994Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:24.994Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-22T18:50:25.007Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:25.018Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:25.028Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:25.028Z]: {}
+INFO [2023-11-22T18:50:25.203Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:25.208Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:25.210Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:25.210Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:25.252Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:25.255Z]: {}
+INFO [2023-11-22T18:50:25.470Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:25.476Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:25.476Z]: {"added":2,"deleted":1}
+INFO [2023-11-22T18:50:25.481Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:25.481Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:25.863Z]: project_reinitialize_start
+INFO [2023-11-22T18:50:25.865Z]: {}
+INFO [2023-11-22T18:50:26.098Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:26.101Z]: {"length":2}
+INFO [2023-11-22T18:50:26.101Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:26.101Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:26.101Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:26.107Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:26.107Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:26.107Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:26.182Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:26.189Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:26.189Z]: {"added":2,"deleted":1}
+INFO [2023-11-22T18:50:26.189Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:26.189Z]: {"embeddingsToDelete":1}
+INFO [2023-11-22T18:50:26.190Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:26.190Z]: {"write":2}
+INFO [2023-11-22T18:50:26.433Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:26.433Z]: {"resuts":2,"delete":1}
+INFO [2023-11-22T18:50:26.433Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:26.433Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2023-11-22T18:50:26.446Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:26.491Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:26.611Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:26.614Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:26.616Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:26.616Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:26.633Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:26.635Z]: {}
+INFO [2023-11-22T18:50:26.812Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:26.816Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:26.816Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:26.816Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:26.816Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:26.817Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:26.817Z]: {"length":0}
+INFO [2023-11-22T18:50:26.817Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:26.817Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:26.817Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:26.817Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:26.817Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:26.817Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:26.931Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:26.934Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:26.934Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:26.934Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:26.934Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:26.934Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:26.934Z]: {"write":0}
+INFO [2023-11-22T18:50:27.117Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:27.117Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:27.117Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:27.117Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:27.122Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:27.126Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:27.278Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:27.281Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:27.282Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:27.282Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:27.300Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:27.303Z]: {}
+INFO [2023-11-22T18:50:27.458Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:27.460Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:27.460Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:27.461Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:27.461Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:27.461Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:27.461Z]: {"length":0}
+INFO [2023-11-22T18:50:27.461Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:27.461Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:27.461Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:27.461Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:27.461Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:27.461Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:27.530Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:27.532Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:27.532Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:27.532Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:27.532Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:27.532Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:27.532Z]: {"write":0}
+INFO [2023-11-22T18:50:27.717Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:27.717Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:27.717Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:27.717Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:27.723Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:27.728Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:27.870Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:27.873Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:27.875Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:27.875Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:27.894Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:27.896Z]: {}
+INFO [2023-11-22T18:50:28.019Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:28.022Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:28.022Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:28.022Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:28.022Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:28.022Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:28.022Z]: {"length":0}
+INFO [2023-11-22T18:50:28.022Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:28.022Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:28.022Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:28.022Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:28.022Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:28.022Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:28.086Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:28.089Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:28.089Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:28.089Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:28.089Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:28.089Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:28.089Z]: {"write":0}
+INFO [2023-11-22T18:50:28.297Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:28.297Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:28.298Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:28.298Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:28.304Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:28.343Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:28.494Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:28.497Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:28.497Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:28.497Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:28.506Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:28.506Z]: {}
+INFO [2023-11-22T18:50:28.645Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:28.648Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:28.648Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:28.648Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:28.648Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:28.648Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:28.648Z]: {"length":0}
+INFO [2023-11-22T18:50:28.648Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:28.648Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:28.649Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:28.649Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:28.649Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:28.649Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:28.715Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:28.718Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:28.718Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:28.718Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:28.718Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:28.718Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:28.718Z]: {"write":0}
+INFO [2023-11-22T18:50:28.906Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:28.906Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:28.906Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:28.906Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:28.912Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:28.918Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:29.070Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:29.073Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:29.073Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:29.073Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:29.082Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:29.082Z]: {}
+INFO [2023-11-22T18:50:29.217Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:29.219Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:29.219Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:29.219Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:29.219Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:29.220Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:29.220Z]: {"length":0}
+INFO [2023-11-22T18:50:29.220Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:29.220Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:29.220Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:29.220Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:29.220Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:29.220Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:29.284Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:29.287Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:29.287Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:29.287Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:29.287Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:29.287Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:29.287Z]: {"write":0}
+INFO [2023-11-22T18:50:29.491Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:29.491Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:29.491Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:29.491Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:29.498Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:29.503Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:29.682Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:29.686Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:29.686Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:29.686Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:29.696Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:29.696Z]: {}
+INFO [2023-11-22T18:50:29.848Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:29.850Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:29.850Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:29.850Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:29.850Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:29.851Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:29.851Z]: {"length":0}
+INFO [2023-11-22T18:50:29.851Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:29.851Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:29.851Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:29.851Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:29.851Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:29.851Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:29.915Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:29.917Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:29.917Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:29.917Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:29.917Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:29.917Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:29.917Z]: {"write":0}
+INFO [2023-11-22T18:50:30.115Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:30.115Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:30.115Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:30.115Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:30.129Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:30.170Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:30.272Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:30.276Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:30.276Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:30.276Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:30.292Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:30.294Z]: {}
+INFO [2023-11-22T18:50:30.492Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:30.495Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:30.495Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:30.495Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:30.495Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:30.495Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:30.495Z]: {"length":0}
+INFO [2023-11-22T18:50:30.495Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:30.495Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:30.495Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:30.495Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:30.496Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:30.496Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:30.560Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:30.563Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:30.563Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:30.563Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:30.563Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:30.563Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:30.563Z]: {"write":0}
+INFO [2023-11-22T18:50:30.829Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:30.830Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:30.830Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:30.830Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:30.837Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:30.852Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:31.069Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:31.073Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:31.074Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:31.074Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:31.099Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:31.102Z]: {}
+INFO [2023-11-22T18:50:31.436Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:31.439Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:31.439Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:31.439Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:31.439Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:31.439Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:31.439Z]: {"length":0}
+INFO [2023-11-22T18:50:31.439Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:31.439Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:31.439Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:31.439Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:31.439Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:31.439Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:31.525Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:31.529Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:31.529Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:31.529Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:31.529Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:31.529Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:31.529Z]: {"write":0}
+INFO [2023-11-22T18:50:31.840Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:31.840Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:31.840Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:31.840Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:31.846Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:31.896Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:32.027Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:32.030Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:32.030Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:32.030Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:32.040Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:32.040Z]: {}
+INFO [2023-11-22T18:50:32.190Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:32.193Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:32.193Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:32.193Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:32.193Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:32.194Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:32.194Z]: {"length":0}
+INFO [2023-11-22T18:50:32.194Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:32.194Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:32.194Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:32.194Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:32.194Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:32.194Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:32.264Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:32.267Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:32.267Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:32.267Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:32.267Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:32.267Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:32.267Z]: {"write":0}
+INFO [2023-11-22T18:50:32.507Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:32.507Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:32.507Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:32.507Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:32.513Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:32.519Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:32.700Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:32.703Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:32.703Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:32.703Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:32.714Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:32.714Z]: {}
+INFO [2023-11-22T18:50:32.874Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:32.876Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:32.876Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:32.876Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:32.876Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:32.876Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:32.876Z]: {"length":0}
+INFO [2023-11-22T18:50:32.876Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:32.876Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:32.876Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:32.876Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:32.876Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:32.877Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:33.029Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:33.033Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:33.033Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:33.033Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:33.033Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:33.033Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:33.033Z]: {"write":0}
+INFO [2023-11-22T18:50:33.478Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:33.481Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:33.481Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:33.481Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:33.487Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:33.493Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:33.612Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:33.615Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:33.616Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:33.616Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:33.633Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:33.636Z]: {}
+INFO [2023-11-22T18:50:33.775Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:33.777Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:33.777Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:33.778Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:33.778Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:33.778Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:33.778Z]: {"length":0}
+INFO [2023-11-22T18:50:33.778Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:33.778Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:33.778Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:33.778Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:33.778Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:33.778Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:33.846Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:33.849Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:33.849Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:33.849Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:33.849Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:33.849Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:33.849Z]: {"write":0}
+INFO [2023-11-22T18:50:34.062Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:34.062Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:34.062Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:34.062Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:34.067Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:34.072Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:34.238Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:34.242Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:34.243Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:34.243Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:34.264Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:34.267Z]: {}
+INFO [2023-11-22T18:50:34.401Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:34.403Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:34.403Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:34.404Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:34.404Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:34.404Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:34.404Z]: {"length":0}
+INFO [2023-11-22T18:50:34.404Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:34.404Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:34.404Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:34.404Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:34.404Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:34.404Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:34.507Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:34.510Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:34.510Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:34.510Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:34.510Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:34.510Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:34.510Z]: {"write":0}
+INFO [2023-11-22T18:50:34.712Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:34.712Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:34.712Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:34.712Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:34.718Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:34.725Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:34.905Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:34.909Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:34.910Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:34.910Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:34.953Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:34.955Z]: {}
+INFO [2023-11-22T18:50:35.107Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:35.110Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:35.110Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:35.110Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:35.110Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:35.111Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:35.111Z]: {"length":0}
+INFO [2023-11-22T18:50:35.111Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:35.111Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:35.111Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:35.111Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:35.111Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:35.111Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:35.189Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:35.192Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:35.192Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:35.192Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:35.192Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:35.192Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:35.192Z]: {"write":0}
+INFO [2023-11-22T18:50:35.381Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:35.381Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:35.381Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:35.381Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:35.387Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:35.392Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:35.575Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:35.578Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:35.579Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:35.579Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:35.598Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:35.602Z]: {}
+INFO [2023-11-22T18:50:35.771Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:35.774Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:35.774Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:35.774Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:35.774Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:35.775Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:35.775Z]: {"length":0}
+INFO [2023-11-22T18:50:35.775Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:35.775Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:35.775Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:35.775Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:35.775Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:35.775Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:35.858Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:35.862Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:35.862Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:35.862Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:35.862Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:35.862Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:35.862Z]: {"write":0}
+INFO [2023-11-22T18:50:36.104Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:36.104Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:36.104Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:36.104Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:36.155Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:36.164Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:36.281Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:36.286Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:36.288Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:36.288Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:36.311Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:36.314Z]: {}
+INFO [2023-11-22T18:50:36.488Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-22T18:50:36.491Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-22T18:50:36.491Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:36.491Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-22T18:50:36.491Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-22T18:50:36.492Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-22T18:50:36.492Z]: {"length":0}
+INFO [2023-11-22T18:50:36.492Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-22T18:50:36.492Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-22T18:50:36.492Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-22T18:50:36.492Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-22T18:50:36.492Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-22T18:50:36.492Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-22T18:50:36.578Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-22T18:50:36.581Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-22T18:50:36.581Z]: {"added":0,"deleted":0}
+INFO [2023-11-22T18:50:36.581Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-22T18:50:36.581Z]: {"embeddingsToDelete":0}
+INFO [2023-11-22T18:50:36.581Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-22T18:50:36.581Z]: {"write":0}
+INFO [2023-11-22T18:50:36.795Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-22T18:50:36.795Z]: {"resuts":0,"delete":0}
+INFO [2023-11-22T18:50:36.795Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-22T18:50:36.795Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2023-11-22T18:50:36.802Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-22T18:50:36.807Z]: [CodeTagger.index] Starting to index
+INFO [2023-11-22T18:50:36.965Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-22T18:50:36.971Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2023-11-22T18:50:36.972Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2023-11-22T18:50:36.972Z]: {"adding":0,"deleting":0}
+INFO [2023-11-22T18:50:36.992Z]: project_reinitialize_success
+INFO [2023-11-22T18:50:36.995Z]: {}
