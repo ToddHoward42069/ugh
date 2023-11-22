@@ -1,8 +1,9 @@
 {
   "name": "ugh",
   "languages": [
-    "JavaScript",
     "HTML",
-    "CSS"
-  ]
+    "CSS",
+    "JavaScript"
+  ],
+  "indexVersion": 2
 }
