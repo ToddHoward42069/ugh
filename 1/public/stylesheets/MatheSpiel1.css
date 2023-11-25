@@ -32,6 +32,10 @@ a {
     text-decoration: none;
 }
 
+.Anmerkung {
+    color: #fff;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--primary-color);
@@ -87,7 +91,6 @@ nav {
     font-size: 0.8rem; /* Adjust for mobile */
     color: #0d0d0f;
     background-color: #0d0d0f;
-    transition: all 0.3s ease;
     position: relative;
     top: -0.2rem;
 }
@@ -167,7 +170,7 @@ input[type="number"], button {
     top: 1.5rem;
 }
 
-button {
+.game-btn {
     padding: 0.625rem 1.25rem;
     background-color: #4CAF50;
     color: white;
@@ -189,6 +192,7 @@ button {
     padding-left: 6.75rem;
     background-color: transparent;
     transform: translate(18.8125rem, -26.875rem);
+    cursor: pointer;
 }
 
 #settings-btn .fa-cog {
@@ -206,7 +210,7 @@ button {
    padding: 10px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
    z-index: 1;
-   width: 20%;
+   width: 35%;
    height: 20%;
 }
 
