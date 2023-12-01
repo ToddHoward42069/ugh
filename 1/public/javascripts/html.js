@@ -19,3 +19,7 @@
         // Add click event listeners
         link.addEventListener('click', toggleDropdown);
         document.addEventListener('click', closeDropdown);
+
+        import { inject } from '@vercel/analytics';
+ 
+inject();
