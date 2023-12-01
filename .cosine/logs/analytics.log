@@ -5119,3 +5119,11 @@ INFO [2023-11-25T22:55:03.467Z]: project_reinitialize_success
 INFO [2023-11-25T22:55:03.470Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
 INFO [2023-11-25T22:55:04.228Z]: project_reinitialize_success
 INFO [2023-11-25T22:55:04.229Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-12-01T22:54:47.455Z]: Set User: pastowskiphilipp635@gmail.com
+INFO [2023-12-01T22:54:47.458Z]: {"Telemetry":true}
+INFO [2023-12-01T22:54:48.020Z]: project_reinitialize_start
+INFO [2023-12-01T22:54:48.023Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-12-01T22:54:48.027Z]: extension_initialized
+INFO [2023-12-01T22:54:48.027Z]: {"timeToInit":12773,"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2023-12-01T22:54:49.703Z]: project_reinitialize_success
+INFO [2023-12-01T22:54:49.705Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
