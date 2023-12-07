@@ -26,6 +26,18 @@ body {
     background-color: #18181B;
 }
 
+main p {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 15rem; /* Adjust as needed */
+}
+
 nav {
     max-width: 1200px;
     margin: auto;
@@ -132,4 +144,9 @@ nav {
     .btn {
         font-size: 1rem;
     }
+
+    main p {
+        font-size: 1.4rem;
+    }
+
 }
